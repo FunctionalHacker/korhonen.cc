@@ -22,7 +22,7 @@ url = "https://www.theseus.fi/handle/10024/339275"
 [[degrees]]
 name = "Student exchange"
 icon = "fa-building-columns"
-timeframe = "2016-2020"
+timeframe = "2018-2019"
 
 [degrees.institution]
 name = "Frankfurt University of Applied Sciences"
