@@ -1,0 +1,9 @@
+name = "Marko Korhonen"
+nickname = "Marko"
+greeting = "Hi, I am"
+image = "images/john.png"
+summary = ["I am a developer", "I love open source", "I love Linux"]
+
+[contactInfo]
+email = "marko@korhonen.cc"
+phone = "+358407658800"

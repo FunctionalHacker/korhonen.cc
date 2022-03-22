@@ -1,0 +1,28 @@
+baseURL = 'https://korhonen.cc'
+languageCode = 'en-us'
+title = 'Marko Korhonen'
+theme = 'toha'
+
+enableEmoji = true
+
+[languages]
+
+[languages.en]
+languageName = "English"
+weight = 1
+
+[markup]
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 6
+ordered = false
+
+[params]
+gitRepo = "https://git.korhonen.cc/FunctionalHacker/website"
+enableBlogPost = false
+enableTOC = true
+background = "images/bailey-zindel-NRQV-hBF10M-unsplash.jpg"
+
+[params.newsletter]
+enable = false

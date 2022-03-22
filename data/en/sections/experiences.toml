@@ -1,0 +1,53 @@
+[section]
+name = "Experiences"
+id = "experiences"
+enable = true
+weight = 3
+showOnNavbar = true
+
+[[experiences]]
+
+[experiences.company]
+name = "Rossum Oy"
+url = "https://www.rossum.fi"
+location = "Lahti, Finland"
+overview = "Rossum is a well-established Finnish software company"
+
+[[experiences.positions]]
+designation = "Software Engineer"
+start = "May 2020"
+responsibilities = [
+  "Full-stack software development (Java, React.js)",
+  "Linux server and infrastructure maintenance",
+]
+
+[[experiences]]
+
+[experiences.company]
+name = "Uskonnen Oy"
+url = "https://www.uskonnen.fi"
+location = "Helsinki, Finland"
+overview = "Uskonnen is a Finnish company that specializes in remarketing business computers and doing computer maintenance and repair"
+
+[[experiences.positions]]
+designation = "Summer intern"
+start = "June 2018"
+end = "July 2018"
+responsibilities = [
+  "Repairing and troubleshooting customer computers",
+  "Selling computers",
+]
+
+[[experiences]]
+
+[experiences.company]
+name = "Auto-Suni Oy"
+location = "Lappeenranta, Finland"
+url = "https://www.auto-suni.fi"
+overview = "Auto-Suni is a family owned car dealership located in South Carelia"
+
+[[experiences.positions]]
+designation = "Summer intern"
+start = "June 2017"
+end = "July 2017"
+responsibilities = ["Internal technical support"]

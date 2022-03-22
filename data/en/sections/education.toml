@@ -1,0 +1,38 @@
+[section]
+name = "Education"
+id = "education"
+template = "sections/education.html"
+enable = true
+weight = 4
+showOnNavbar = true
+
+[[degrees]]
+name = "Bachelor of ICT"
+icon = "fa-graduation-cap"
+timeframe = "2016-2020"
+
+[degrees.institution]
+name = "Metropolia University of Applied Sciences"
+url = "https://www.metropolia.fi"
+
+[[degrees.publications]]
+title = "Rust as a Web Development Language"
+url = "https://www.theseus.fi/handle/10024/339275"
+
+[[degrees]]
+name = "Student exchange"
+icon = "fa-building-columns"
+timeframe = "2016-2020"
+
+[degrees.institution]
+name = "Frankfurt University of Applied Sciences"
+url = "https://www.frankfurt-university.de"
+
+[[degrees]]
+name = "Upper secondary qualification in Business Economics"
+icon = "fa-building"
+timeframe = "2013-2015"
+
+[degrees.institution]
+name = "Saimaan Ammattiopisto"
+url = "https://www.edusampo.fi"

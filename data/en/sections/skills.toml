@@ -1,0 +1,27 @@
+[section]
+name = "Skills"
+id = "skills"
+enable = true
+weight = 2
+showOnNavbar = true
+template = "sections/skills.html"
+
+[[skills]]
+name = "Java"
+logo = "images/skills/java.svg"
+summary = "My main \"back-end\" programming language. Proficient in frameworks and libraries such as Hibernate, JPA, Spring."
+
+[[skills]]
+name = "Docker"
+logo = "images/skills/docker.svg"
+summary = "Experienced in packaging, distributing and managing Dockerized software."
+
+[[skills]]
+name = "Linux"
+logo = "images/skills/linux.svg"
+summary = "Using Linux as my main operating system for a number of years both at work and on my free time. Capable of writing bash/shell scripts."
+
+[[skills]]
+name = "Git"
+logo = "images/skills/git.svg"
+summary = "Experienced with git-based development. Especially feature driven development workflow."

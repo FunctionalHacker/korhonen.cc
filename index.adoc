@@ -1,7 +1,0 @@
-:page-layout: home
-
-This is the front page. You can find it in the source as `index.adoc`.
-
-This is the home page and it is using the `home` layout, so you should see a "Posts" widget below, which shows the latests posts.
-
-Jekyll also supports generating RSS feeds, pretty cool ain't it?
