@@ -1,7 +1,6 @@
 +++
 title = "PGP"
 date = 2022-03-23
-draft = false
 +++
 
 I like PGP and I secure everything I can with it. If you would like to send me encrypted files, emails or anything of that sort, you came to the right page. Next up is my public key in different formats.
