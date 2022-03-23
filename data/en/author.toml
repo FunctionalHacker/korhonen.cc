@@ -2,7 +2,12 @@ name = "Marko Korhonen"
 nickname = "Marko"
 greeting = "Hi, I am"
 image = "images/john.png"
-summary = ["I am a developer", "I love open source", "I love Linux"]
+summary = [
+  "I am a developer",
+  "I love open source",
+  "I love Linux",
+  "I love servers",
+]
 
 [contactInfo]
 email = "marko@korhonen.cc"
