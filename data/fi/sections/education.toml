@@ -1,0 +1,47 @@
+[section]
+name = "Koulutus"
+id = "education"
+template = "sections/education.html"
+enable = true
+weight = 4
+showOnNavbar = true
+
+[[degrees]]
+name = "Tietotekniikan insinööri"
+icon = "fa-graduation-cap"
+timeframe = "2016-2020"
+
+[degrees.institution]
+name = "Metropolia Ammattikorkeakoulu"
+url = "https://www.metropolia.fi/fi"
+
+[[degrees.publications]]
+title = "Rust web-ohjelmointikielenä"
+url = "https://www.theseus.fi/handle/10024/339275"
+
+[[degrees]]
+name = "Opiskelijavaihto"
+icon = "fa-building-columns"
+timeframe = "2018-2019"
+
+[degrees.institution]
+name = "Frankfurt University of Applied Sciences"
+url = "https://www.frankfurt-university.de/en"
+
+[[degrees]]
+name = "Merkonomi"
+icon = "fa-building"
+timeframe = "2013-2015"
+
+[degrees.institution]
+name = "Saimaan Ammattiopisto"
+url = "https://www.edusampo.fi"
+
+[[degrees]]
+name = "Lukio ja ylioppilastutkinto"
+icon = "fa-building"
+timeframe = "2009-2012"
+
+[degrees.institution]
+name = "Lauritsalan lukio"
+url = "https://fi.wikipedia.org/wiki/Lauritsalan_lukio"

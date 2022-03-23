@@ -9,7 +9,12 @@ template = "sections/skills.html"
 [[skills]]
 name = "Java"
 logo = "images/skills/java.svg"
-summary = "My main \"back-end\" programming language. Proficient in frameworks and libraries such as Hibernate, JPA, Spring."
+summary = "My main \"back-end\" programming language. Proficient in frameworks and libraries such as Hibernate, JPA and Spring."
+
+[[skills]]
+name = "React.js"
+logo = "images/skills/react.svg"
+summary = "Lots of experience creating modern web applications using React. Also familiar with the Material-UI library."
 
 [[skills]]
 name = "Docker"

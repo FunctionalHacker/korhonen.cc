@@ -13,7 +13,7 @@ timeframe = "2016-2020"
 
 [degrees.institution]
 name = "Metropolia University of Applied Sciences"
-url = "https://www.metropolia.fi"
+url = "https://www.metropolia.fi/en"
 
 [[degrees.publications]]
 title = "Rust as a Web Development Language"
@@ -26,7 +26,7 @@ timeframe = "2018-2019"
 
 [degrees.institution]
 name = "Frankfurt University of Applied Sciences"
-url = "https://www.frankfurt-university.de"
+url = "https://www.frankfurt-university.de/en"
 
 [[degrees]]
 name = "Upper secondary qualification in Business Economics"
@@ -34,5 +34,13 @@ icon = "fa-building"
 timeframe = "2013-2015"
 
 [degrees.institution]
-name = "Saimaan Ammattiopisto"
-url = "https://www.edusampo.fi"
+name = "Saimaa Vocational College"
+url = "https://www.edusampo.fi/en"
+
+[[degrees]]
+name = "High school and matriculation examination"
+icon = "fa-building"
+timeframe = "2009-2012"
+
+[degrees.institution]
+name = "Lauritsalan high school"

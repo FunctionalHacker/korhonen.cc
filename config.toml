@@ -11,6 +11,10 @@ enableEmoji = true
 languageName = "English"
 weight = 1
 
+[languages.fi]
+languageName = "Suomi"
+weight = 2
+
 [markup]
 
 [markup.tableOfContents]
@@ -19,10 +23,9 @@ endLevel = 6
 ordered = false
 
 [params]
-gitRepo = "https://git.korhonen.cc/FunctionalHacker/website"
 enableBlogPost = false
 enableTOC = true
-background = "images/bailey-zindel-NRQV-hBF10M-unsplash.jpg"
+background = "images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"
 
 [params.newsletter]
 enable = false

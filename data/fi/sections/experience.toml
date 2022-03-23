@@ -1,0 +1,53 @@
+[section]
+name = "Kokemus"
+id = "experiences"
+enable = true
+weight = 3
+showOnNavbar = true
+
+[[experiences]]
+
+[experiences.company]
+name = "Rossum Oy"
+url = "https://www.rossum.fi"
+location = "Lahti"
+overview = "Rossum Oy on vakiintunut suomalainen ohjelmistoyritys."
+
+[[experiences.positions]]
+designation = "Ohjelmistokehittäjä"
+start = "Touko 2020"
+responsibilities = [
+  "Full-stack ohjelmistokehitys (Java, React.js)",
+  "Linux serverien ja infrastruktuurin ylläpitoa",
+]
+
+[[experiences]]
+
+[experiences.company]
+name = "Uskonnen Oy"
+url = "https://www.uskonnen.fi"
+location = "Helsinki"
+overview = "Uskonnen on yritys joka on erikoistunut yritystietokoneiden jälleenmyyntiin sekä tietokoneiden korjaus- ja huoltotöihin."
+
+[[experiences.positions]]
+designation = "Harjoittelija"
+start = "Kesä"
+end = "Heinä 2018"
+responsibilities = [
+  "Asiakkaiden tietokoneiden korjaus ja ongelmanselvitys",
+  "Tietokoneiden myynti",
+]
+
+[[experiences]]
+
+[experiences.company]
+name = "Auto-Suni Oy"
+location = "Lappeenranta"
+url = "https://www.auto-suni.fi"
+overview = "Auto-Suni Oy on johtava autoliike alueellaan ja osa vuonna 1905 perustettua Suni-konsernia."
+
+[[experiences.positions]]
+designation = "Harjoittelija"
+start = "Kesä"
+end = "Heinä 2017"
+responsibilities = ["Sisäinen tekninen tuki"]

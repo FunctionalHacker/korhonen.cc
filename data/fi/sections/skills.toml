@@ -1,0 +1,32 @@
+[section]
+name = "Taidot"
+id = "skills"
+enable = true
+weight = 2
+showOnNavbar = true
+template = "sections/skills.html"
+
+[[skills]]
+name = "Java"
+logo = "images/skills/java.svg"
+summary = "Pääasiallinen \"back-end\" -ohjelmointikieleni. Hallussa on myös frameworkejä ja kirjastoja kuten Hibernate, JPA ja Spring."
+
+[[skills]]
+name = "React.js"
+logo = "images/skills/react.svg"
+summary = "Paljon kokemusta modernien web-applikaatioiden toteuttamisesta Reactin avulla. Olen myös käyttänyt paljon Material-UI kirjastoa."
+
+[[skills]]
+name = "Docker"
+logo = "images/skills/docker.svg"
+summary = "Kokemusta Dockeroitujen sovelluksien paketoinnista, jakamisesta ja hallinnoinnista."
+
+[[skills]]
+name = "Linux"
+logo = "images/skills/linux.svg"
+summary = "Olen käyttänyt Linuxia ainoana käyttöjärjestelmänäni useita vuosia niin töissä kuin vapaa-ajallakin. Osaan myös kirjoittaa bash/shell-skriptejä."
+
+[[skills]]
+name = "Git"
+logo = "images/skills/git.svg"
+summary = "Kokenut git-pohjaisessa kehitysympäristössä. Erityisesti ominaisuuslähtöinen workflow on tuttu."

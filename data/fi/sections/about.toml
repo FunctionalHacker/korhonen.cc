@@ -1,0 +1,45 @@
+designation = "Ohjelmistokehittäjä"
+resume = "files/cv-fin.pdf"
+summary = "Olen innokas ohjelmistokehittäjä kahden vuoden työkokemuksella. Tykkään paljon myös avoimesta lähdekoodista, Linuxista ja servereistä."
+
+[section]
+name = "Yleistä"
+id = "about"
+enable = true
+weight = 1
+showOnNavbar = true
+template = "sections/about.html"
+
+[company]
+name = "Rossum Oy"
+url = "https://rossum.fi"
+
+[[socialLinks]]
+name = "GitHub"
+icon = "fab fa-github"
+url = "https://www.github.com/FunctionalHacker"
+
+[[socialLinks]]
+name = "LinkedIn"
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/in/functionalhacker"
+
+[[socialLinks]]
+name = "Telegram"
+icon = "fab fa-telegram"
+url = "https://t.me/FunctionalHacker"
+
+[[softSkills]]
+name = "Tiimityö"
+percentage = 90
+color = "blue"
+
+[[softSkills]]
+name = "Kommunikaatio"
+percentage = 95
+color = "green"
+
+[[softSkills]]
+name = "Johtamistaidot"
+percentage = 80
+color = "orange"
