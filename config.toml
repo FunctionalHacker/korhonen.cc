@@ -24,8 +24,24 @@ ordered = false
 
 [params]
 enableBlogPost = false
-enableTOC = true
+enableTOC = false
 background = "images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"
 
 [params.newsletter]
 enable = false
+
+
+[security]
+enableInlineShortcodes = false
+
+[security.exec]
+allow = ['^asciidoctor$', '^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
+
+[security.funcs]
+getenv = ['^HUGO_']
+
+[security.http]
+methods = ['(?i)GET|POST']
+
+urls = ['.*']
