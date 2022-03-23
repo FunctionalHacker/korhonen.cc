@@ -4,6 +4,7 @@ title = 'Marko Korhonen'
 theme = 'toha'
 
 enableEmoji = true
+enableGitInfo = true
 
 [languages]
 
