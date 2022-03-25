@@ -1,0 +1,13 @@
+kind: pipeline
+name: default
+
+steps:
+- name: build
+  image: plugins/hugo
+  volumes:
+  - name: output
+    path: /var/www/korhonen.cc
+  settings:
+    hugo_version: 0.95
+    validate: true
+    output: /output
