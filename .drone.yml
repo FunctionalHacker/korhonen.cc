@@ -6,7 +6,11 @@ steps:
   image: klakegg/hugo:asciidoctor
   volumes:
   - name: output
-    path: /var/www/korhonen.cc
+    path: /korhonen.cc
   commands:
-    - "ls /output"
-    - "hugo -d /output"
+    - "hugo -d /korhonen.cc"
+
+volumes:
+- name: output
+  host:
+    path: /var/www/korhonen.cc
