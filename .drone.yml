@@ -2,6 +2,11 @@ kind: pipeline
 name: default
 
 steps:
+- name: submodules
+  image: alpine/git
+  commands:
+  - git submodule update --init --recursive
+
 - name: build
   image: klakegg/hugo:ext-asciidoctor-ci
   volumes:
