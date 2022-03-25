@@ -3,11 +3,9 @@ name: default
 
 steps:
 - name: build
-  image: plugins/hugo
+  image: klakegg/hugo
   volumes:
   - name: output
     path: /var/www/korhonen.cc
-  settings:
-    hugo_version: 0.95.0
-    validate: false
-    output: /output
+  commands:
+    - "hugo -d /output"
