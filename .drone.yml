@@ -3,7 +3,7 @@ name: default
 
 steps:
 - name: build
-  image: klakegg/hugo:asciidoctor
+  image: klakegg/hugo:ext-asciidoctor-ci
   volumes:
   - name: output
     path: /korhonen.cc
