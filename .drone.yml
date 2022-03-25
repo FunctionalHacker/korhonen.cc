@@ -8,6 +8,7 @@ steps:
   - name: output
     path: /var/www/korhonen.cc
   settings:
-    hugo_version: 0.95
+    hugo_version: 0.95.0
+    extended: true
     validate: true
     output: /output
