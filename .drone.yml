@@ -8,4 +8,5 @@ steps:
   - name: output
     path: /var/www/korhonen.cc
   commands:
+    - "ls /output"
     - "hugo -d /output"
