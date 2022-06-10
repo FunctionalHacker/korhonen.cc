@@ -2,3 +2,15 @@ copyright = "Copyright © 2022 Marko Korhonen"
 
 # Meta description for search engines and such
 description = "Portfolio of Marko Korhonen"
+
+[[customMenus]]
+name = "PGP"
+url = "/pgp"
+hideFromNavbar = false
+showOnFooter = true
+
+[[customMenus]]
+name = "Repo"
+url = "/korhonen_aur"
+hideFromNavbar = false
+showOnFooter = true

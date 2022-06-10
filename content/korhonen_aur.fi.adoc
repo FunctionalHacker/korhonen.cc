@@ -1,0 +1,50 @@
++++
+title = "Korhonen AUR"
+date = 2022-03-25
++++
+
+Tämä on Arch Linux repo joka koostuu AUR paketeista joita käytän itse.
+Ajattelin jakaa tämän julkisesti netissä jos joku tästä jotain
+hyötyisi.
+
+== Huomio!
+
+Kaikki tämän repon paketit on optimoitu x86-v3 arkkitehtuurille.
+Tarkastaaksesi oman prosessorisi yhteensopivuuden, aja seuraava komento.
+
+[source,shell]
+----
+/lib/ld-linux-x86-64.so.2 --help | grep "x86-64-v3 (supported, searched)"
+----
+
+Jos edeltävä komento ei tulosta mitään, prosessorisi ei valitettavasti
+ole tuettu. Muussa tapauksessa voit jatkaa!
+
+== Tuki
+
+Tällä repolla ei ole minkäänlaista tukea eikä mitään takeita
+ylhäälläoloajasta. Serveri jolla tämä repo pyörii on 4G laajakaistan
+takana, joten nopeudet voivat vaihdella paljonkin sään ja muiden muuttujien vaikutuksesta.
+
+Päivitän paketteja satunnaisesti, kuitenkin luultavasti useita kertoja
+viikossa. Jos haluaisit jonkun paketin lisättäväksi repoon, mailto:aur@marko.korhonen.cc?subject=Package%20request%20for%20Korhonen%20AUR[lähetä sähköpostia] niin katsotaan mitä on tehtävissä.
+
+== Usage
+
+Ensiksi, lisää link:/fi/pgp/[PGP avaimeni] pacman
+avainnippuusi ja luota siihen
+
+[source,shell]
+----
+pacman-key -r E40A9DD549AA7A3CFCCBBC3D911B85FBC6003FE5
+pacman-key --lsign-key E40A9DD549AA7A3CFCCBBC3D911B85FBC6003FE5
+----
+
+Sitten lisää seuraava sisältö pacman konfiguraatioosi
+(`/etc/pacman.conf`)
+
+[source,shell]
+----
+[korhonen_aur]
+Server = https://index.korhonen.cc/repo/arch_linux/$repo/$arch
+----
