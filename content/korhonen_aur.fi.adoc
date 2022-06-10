@@ -29,7 +29,7 @@ takana, joten nopeudet voivat vaihdella paljonkin sään ja muiden muuttujien va
 Päivitän paketteja satunnaisesti, kuitenkin luultavasti useita kertoja
 viikossa. Jos haluaisit jonkun paketin lisättäväksi repoon, mailto:aur@marko.korhonen.cc?subject=Package%20request%20for%20Korhonen%20AUR[lähetä sähköpostia] niin katsotaan mitä on tehtävissä.
 
-== Usage
+== Käyttö
 
 Ensiksi, lisää link:/fi/pgp/[PGP avaimeni] pacman
 avainnippuusi ja luota siihen
