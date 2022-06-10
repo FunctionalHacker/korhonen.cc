@@ -13,7 +13,6 @@ steps:
   - name: output
     path: /korhonen.cc
   commands:
-    - "ls /korhonen.cc"
     - "hugo -d /korhonen.cc"
 
 volumes:
