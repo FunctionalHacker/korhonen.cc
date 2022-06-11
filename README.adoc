@@ -1,0 +1,9 @@
+= korhonen.cc website
+
+image::https://drone.korhonen.cc/api/badges/FunctionalHacker/gitea-asciidoc/status.svg[link="https://drone.korhonen.cc/FunctionalHacker/gitea-asciidoc"]
+
+This is the source code to my main website.
+
+.Thanks to
+* https://gohugo.io[Hugo static site generator]
+* https://github.com/hugo-toha/toha[Toha Hugo theme]
