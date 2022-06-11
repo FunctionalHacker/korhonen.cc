@@ -37,8 +37,8 @@ avainnippuusi ja luota siihen
 
 [source,shell]
 ----
-pacman-key -r E40A9DD549AA7A3CFCCBBC3D911B85FBC6003FE5
-pacman-key --lsign-key E40A9DD549AA7A3CFCCBBC3D911B85FBC6003FE5
+curl 'https://korhonen.cc/pgp/marko_korhonen_gpg.asc' | sudo pacman-key -a -
+sudo pacman-key --lsign-key E40A9DD549AA7A3CFCCBBC3D911B85FBC6003FE5
 ----
 
 Sitten lisää seuraava sisältö pacman konfiguraatioosi
