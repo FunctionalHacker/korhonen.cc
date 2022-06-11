@@ -1,6 +1,6 @@
 +++
 title = "PGP"
-date = 2022-03-23
+date = 2022-06-10
 +++
 
 Tykkään PGP:stä ja turvaan sillä kaiken minkä pystyn. Jos haluaisit lähettää
