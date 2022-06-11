@@ -34,7 +34,7 @@ enable = false
 [params.darkMode]
 provider = "darkreader"
 enable = true
-default = "dark"
+default = "system"
 
 [security]
 enableInlineShortcodes = false
