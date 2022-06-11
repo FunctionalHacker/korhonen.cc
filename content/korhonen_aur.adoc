@@ -1,7 +1,8 @@
-+++
-title = "Korhonen AUR"
-date = 2022-03-25
-+++
+---
+title: Korhonen AUR
+date: 2022-03-25
+---
+= Korhonen AUR
 
 This is a repository of prebuilt AUR packages that I use myself. I
 decided to share it openly on the internet if somebody else finds it
@@ -34,7 +35,7 @@ me] and I'll see what I can do.
 
 == Usage
 
-First, add my PGP key to your pacman keyring and trust it
+First, add link:/pgp[my PGP key] to your pacman keyring and trust it
 
 [source,shell]
 ----

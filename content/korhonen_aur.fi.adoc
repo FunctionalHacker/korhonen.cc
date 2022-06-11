@@ -1,7 +1,8 @@
-+++
-title = "Korhonen AUR"
-date = 2022-03-25
-+++
+---
+title: Korhonen AUR
+date: 2022-03-25
+---
+= Korhonen AUR
 
 Tämä on Arch Linux repo joka koostuu AUR paketeista joita käytän itse.
 Ajattelin jakaa tämän julkisesti netissä jos joku tästä jotain
@@ -31,7 +32,7 @@ viikossa. Jos haluaisit jonkun paketin lisättäväksi repoon, mailto:aur@marko.
 
 == Käyttö
 
-Ensiksi, lisää link:/fi/pgp/[PGP avaimeni] pacman
+Ensiksi, lisää link:/fi/pgp[PGP avaimeni] pacman
 avainnippuusi ja luota siihen
 
 [source,shell]
