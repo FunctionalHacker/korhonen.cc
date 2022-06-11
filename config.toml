@@ -36,6 +36,16 @@ provider = "darkreader"
 enable = true
 default = "system"
 
+[params.features.comment]
+enable = true
+
+[params.features.comment.giscus]
+repo = "FunctionalHacker/korhonen.cc"
+repoID = "R_kgDOHfIUew"
+category = "Announcements"
+categoryID = "DIC_kwDOHfIUe84CPnO-"
+theme = "preferred_color_scheme"
+
 [security]
 enableInlineShortcodes = false
 
