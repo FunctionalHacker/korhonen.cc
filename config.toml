@@ -31,6 +31,10 @@ background = "images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"
 [params.newsletter]
 enable = false
 
+[params.darkMode]
+provider = "darkreader"
+enable = true
+default = "dark"
 
 [security]
 enableInlineShortcodes = false
