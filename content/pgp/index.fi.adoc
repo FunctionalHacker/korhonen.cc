@@ -1,7 +1,8 @@
-+++
-title = "PGP"
-date = 2022-06-10
-+++
+---
+title: PGP
+date: 2022-06-10
+---
+= PGP
 
 Tykkään PGP:stä ja turvaan sillä kaiken minkä pystyn. Jos haluaisit lähettää
 minulle enkryptoituja tiedostoja, sähköposteja tai muuta vastaavaa, tulit
