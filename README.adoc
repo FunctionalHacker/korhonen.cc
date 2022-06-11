@@ -1,6 +1,6 @@
 = korhonen.cc website
 
-image::https://drone.korhonen.cc/api/badges/FunctionalHacker/gitea-asciidoc/status.svg[link="https://drone.korhonen.cc/FunctionalHacker/gitea-asciidoc"]
+image::https://drone.korhonen.cc/api/badges/FunctionalHacker/korhonen.cc/status.svg[link="https://drone.korhonen.cc/FunctionalHacker/korhonen.cc"]
 
 This is the source code to my main website.
 
