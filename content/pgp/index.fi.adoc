@@ -9,6 +9,7 @@ minulle enkryptoituja tiedostoja, sähköposteja tai muuta vastaavaa, tulit
 oikeaan paikkaan. Seuraavaksi on julkinen avaimeni saatavilla eri formaateissa.
 
 == Sormenjälki
+
 `1EFC4DBB079407113A761DF7C514037F1EFF4FA6`
 
 Tämä on avaimeni sormenjälki ja se löytyy monilta avainservereiltä. SKS
@@ -16,9 +17,11 @@ avainserverien sulkeutumisen jälkeen en ole juurikaan ylläpitänyt
 avaintani servereillä.
 
 == ASCII Armor
+
 link:marko_korhonen_gpg.asc[Klikkaa tästä]
 
 == OpenKeychain
+
 Seuraava QR koodi pitäisi olla yhteensopiva OpenKeyChain Android-sovelluksen
 kanssa. Se taitaa kuitenkin luottaa avainservereihin, joten tuloksesi voi
 vaihdella.
