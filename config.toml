@@ -18,6 +18,9 @@ weight = 2
 
 [markup]
 
+[markup.asciidocExt.attributes]
+source-highlighter = "rouge"
+
 [markup.tableOfContents]
 startLevel = 2
 endLevel = 6
