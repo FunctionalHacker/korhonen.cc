@@ -15,7 +15,7 @@ check if you CPU is supported, run the following command
 
 [source,shell]
 ----
-/lib/ld-linux-x86-64.so.2 --help | grep "x86-64-v3 (supported, searched)"
+include::code_blocks/check_processor.sh[]
 ----
 
 If the command outputs nothing, your CPU is not supported. Otherwise,
@@ -39,12 +39,12 @@ First, add link:/pgp[my PGP key] to your pacman keyring and trust it
 
 [source,shell]
 ----
-include::content/korhonen_aur/pacman-commands.sh[]
+include::code_blocks/pacman_commands.sh[]
 ----
 
 Then add the following to your `/etc/pacman.conf`
 
-[source,shell]
+[source,conf]
 ----
-include::content/korhonen_aur/pacman.conf[]
+include::code_blocks/pacman.conf[]
 ----

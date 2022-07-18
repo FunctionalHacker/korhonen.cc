@@ -18,6 +18,9 @@ weight = 2
 
 [markup]
 
+[markup.asciidocExt]
+workingFolderCurrent = true
+
 [markup.asciidocExt.attributes]
 source-highlighter = "rouge"
 

@@ -15,7 +15,7 @@ Tarkastaaksesi oman prosessorisi yhteensopivuuden, aja seuraava komento.
 
 [source,shell]
 ----
-/lib/ld-linux-x86-64.so.2 --help | grep "x86-64-v3 (supported, searched)"
+include::code_blocks/check_processor.sh[]
 ----
 
 Jos edeltävä komento ei tulosta mitään, prosessorisi ei valitettavasti
@@ -37,7 +37,7 @@ avainnippuusi ja luota siihen
 
 [source,shell]
 ----
-include::content/korhonen_aur/pacman-commands.sh[]
+include::code_blocks/pacman_commands.sh[]
 ----
 
 Sitten lisää seuraava sisältö pacman konfiguraatioosi
@@ -45,5 +45,5 @@ Sitten lisää seuraava sisältö pacman konfiguraatioosi
 
 [source,shell]
 ----
-include::content/korhonen_aur/pacman.conf[]
+include::code_blocks/pacman.conf[]
 ----
