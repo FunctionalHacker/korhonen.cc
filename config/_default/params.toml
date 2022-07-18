@@ -1,0 +1,28 @@
+enableBlogPost = false
+enableTOC = false
+background = "images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"
+
+[newsletter]
+enable = false
+
+[darkMode]
+provider = "darkreader"
+enable = true
+default = "system"
+
+[features.comment]
+enable = true
+
+[features.comment.giscus]
+repo = "FunctionalHacker/korhonen.cc"
+repoID = "R_kgDOHfIUew"
+category = "Announcements"
+categoryID = "DIC_kwDOHfIUe84CPnO-"
+theme = "preferred_color_scheme"
+
+[features.support]
+enabled = true
+
+[features.support.kofi]
+user = "functionalhacker"
+text = "Tip me"

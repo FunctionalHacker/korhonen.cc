@@ -1,0 +1,7 @@
+[en]
+languageName = "English"
+weight = 1
+
+[fi]
+languageName = "Suomi"
+weight = 2

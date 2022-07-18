@@ -1,0 +1,10 @@
+[asciidocExt]
+workingFolderCurrent = true
+
+[asciidocExt.attributes]
+source-highlighter = "rouge"
+
+[tableOfContents]
+startLevel = 2
+endLevel = 6
+ordered = false

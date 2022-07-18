@@ -1,0 +1,6 @@
+[features.support]
+enabled = true
+
+[features.support.kofi]
+user = "functionalhacker"
+text = "Anna tippiä"

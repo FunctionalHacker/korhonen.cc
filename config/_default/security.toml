@@ -1,0 +1,12 @@
+enableInlineShortcodes = false
+
+[exec]
+allow = ['^asciidoctor$', '^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
+
+[funcs]
+getenv = ['^HUGO_']
+
+[http]
+methods = ['(?i)GET|POST']
+
