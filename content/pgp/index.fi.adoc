@@ -10,7 +10,10 @@ oikeaan paikkaan. Seuraavaksi on julkinen avaimeni saatavilla eri formaateissa.
 
 == Sormenjälki
 
-`1EFC4DBB079407113A761DF7C514037F1EFF4FA6`
+[source]
+----
+include::fingerprint[]
+----
 
 Tämä on avaimeni sormenjälki ja se löytyy monilta avainservereiltä. SKS
 avainserverien sulkeutumisen jälkeen en ole juurikaan ylläpitänyt

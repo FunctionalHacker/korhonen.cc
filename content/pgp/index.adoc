@@ -10,7 +10,10 @@ the right page. Next up is my public key in different formats.
 
 == Fingerprint
 
-`1EFC4DBB079407113A761DF7C514037F1EFF4FA6`
+[source]
+----
+include::fingerprint[]
+----
 
 This is my key fingerprint and it can be found around the various
 keyservers on the internet but since the demise of SKS keyservers,
