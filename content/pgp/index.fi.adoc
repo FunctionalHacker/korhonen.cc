@@ -21,7 +21,7 @@ avaintani servereillä.
 
 == ASCII Armor
 
-link:marko_korhonen_gpg.asc[Klikkaa tästä]
+link:marko_korhonen_gpg.asc[Klikkaa ladataksesi]
 
 == OpenKeychain
 

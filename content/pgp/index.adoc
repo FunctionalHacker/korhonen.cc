@@ -21,7 +21,7 @@ I have not really bothered with keyservers so see below for the full key.
 
 == ASCII Armor
 
-link:marko_korhonen_gpg.asc[Click here]
+link:marko_korhonen_gpg.asc[Click to download]
 
 == OpenKeychain
 
