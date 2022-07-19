@@ -23,10 +23,6 @@ theme = "preferred_color_scheme"
 [features.support]
 enabled = true
 
-[features.support.kofi]
-user = "functionalhacker"
-text = "Tip me"
-
 [features.blog]
 enable = true
 
