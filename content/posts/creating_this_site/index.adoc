@@ -1,0 +1,14 @@
+---
+title: Creating this site
+description: My journey with AsciiDoc and Hugo, and how we got here
+date: 2022-07-19
+draft: true
+---
+:toc:
+= Creating this site
+Marko Korhonen <marko@korhonen.cc>
+v1.0, 2022-07-19
+
+== Introduction
+As seems to be customary on technology related blogs, the first post about creating the blog itself.
+So here we are, this is the first post in my blog, detailing the steps I took to arrive here.

@@ -1,5 +1,5 @@
-enableBlogPost = false
-enableTOC = false
+enableBlogPost = true
+enableTOC = true
 background = "images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"
 
 [newsletter]
@@ -26,3 +26,14 @@ enabled = true
 [features.support.kofi]
 user = "functionalhacker"
 text = "Tip me"
+
+[features.blog]
+enable = true
+
+[features.blog.sharebuttons]
+facebook = true
+twitter = true
+linkedin = true
+reddit = true
+whatsapp = true
+email = true
