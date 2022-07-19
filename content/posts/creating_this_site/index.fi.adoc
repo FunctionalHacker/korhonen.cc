@@ -1,0 +1,14 @@
+---
+title: Tämän sivun luominen
+description: Matkani AsciiDocin and Hugon parissa ja miten tähän pisteeseen päädyttiin
+date: 2022-07-19
+draft: true
+---
+:toc:
+= Tämän sivun luominen
+Marko Korhonen <marko@korhonen.cc>
+v1.0, 2022-07-19
+
+== Johdanto
+Kuten tekniikkaan liittyvissä blogeissa näyttää olevan tapana, ensimmäinen postaus on itse blogin luomisesta.
+Joten tässä ollaan, tämä on blogini ensimmäinen postaus, jossa kerrotaan yksityiskohtaisesti vaiheet, joita tein päästäkseni tänne.
