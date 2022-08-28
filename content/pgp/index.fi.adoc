@@ -31,3 +31,9 @@ kanssa. Se taitaa kuitenkin luottaa avainservereihin, joten tuloksesi voi
 vaihdella.
 
 image:assets/openkeychain.svg[OpenKeychain]
+
+== Päivitys 28.8.2022: uusi avain
+
+Olen päättänyt vaihtaa vanhan RSA-avaimeni ed25519 avaimeksi. Olen link:assets/marko_korhonen_gpg.asc.sig[allekirjoittanut uuden avaimen] link:assets/old_key/marko_korhonen_gpg.asc[vanhalla avaimellani], jos haluat varmistaa kryptograafisesti, että uusi avain kuuluu minulle (jos siis uskoit alunperinkään että vanha avain kuului minulle 😉).
+
+Tähän liittyen, voin vilpittömästi suositella kenelle tahansa vaihtamista ed25519 avaimeen. Se on oletettavasti turvallisempi kuin RSA, mutta yllätyksekseni se on myös monta kertaa nopeampi. Vanhalla avaimellani salasanan salauksen purkaminen salasanamanageristani kesti 2-3 sekuntia. Nyt se on käytännössä välitöntä.

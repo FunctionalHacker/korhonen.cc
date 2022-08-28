@@ -31,3 +31,9 @@ The following QR code should be importable in the Android app
 OpenKeyChain but this relys on keyservers so your results may vary.
 
 image:assets/openkeychain.svg[OpenKeychain]
+
+== Update 2022-08-28: new key
+
+I have decided to change my old RSA key to ed25519. I have link:assets/marko_korhonen_gpg.asc.sig[signed the new key] with link:assets/marko_korhonen_gpg.asc[my old key] if you wish to verify cryptographically that the new key belongs to me (given that you believed that my old key belonged to me to begin with 😉).
+
+On a related note, I can wholeheartedly recommend changing to ed25519 to anyone. It is supposedly more secure than RSA but to my surprise, it is many times faster too. With my old key it used to take 2-3 seconds to decrypt a password from my password manager. Now, it's practically instant.
