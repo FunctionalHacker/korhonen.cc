@@ -23,6 +23,13 @@ This is my key fingerprint and it can be found at the link:https://keys.openpgp.
 
 link:assets/marko_korhonen_pgp.asc[Click here to download]
 
+To import the key to link:https://gnupg.org[GnuPG] on Linux, run the following command
+
+[source,shell]
+----
+include::assets/gpg_import.sh[]
+----
+
 == OpenKeychain
 
 The following QR code is importable in the Android app

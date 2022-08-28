@@ -22,6 +22,13 @@ Tämä on avaimeni sormenjälki ja se löytyy link:https://keys.openpgp.org/sear
 
 link:assets/marko_korhonen_gpg.asc[Klikkaa ladataksesi]
 
+Tuodaksesi avaimen link:https://gnupg.org[GnuPG]:hen Linuxilla, aja seuraava komento
+
+[source,shell]
+----
+include::assets/gpg_import.sh[]
+----
+
 == OpenKeychain
 
 Seuraavan QR-koodin voi tuoda link:https://www.openkeychain.org[OpenKeychain] Android-sovellukseen
