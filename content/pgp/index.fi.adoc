@@ -13,7 +13,7 @@ oikeaan paikkaan. Seuraavaksi on julkinen avaimeni saatavilla eri formaateissa.
 
 [source]
 ----
-include::fingerprint[]
+include::assets/fingerprint[]
 ----
 
 Tämä on avaimeni sormenjälki ja se löytyy monilta avainservereiltä. SKS
@@ -22,7 +22,7 @@ avaintani servereillä.
 
 == ASCII Armor
 
-link:marko_korhonen_gpg.asc[Klikkaa ladataksesi]
+link:assets/marko_korhonen_gpg.asc[Klikkaa ladataksesi]
 
 == OpenKeychain
 
@@ -30,4 +30,4 @@ Seuraava QR koodi pitäisi olla yhteensopiva OpenKeyChain Android-sovelluksen
 kanssa. Se taitaa kuitenkin luottaa avainservereihin, joten tuloksesi voi
 vaihdella.
 
-image:openkeychain.svg[OpenKeychain]
+image:assets/openkeychain.svg[OpenKeychain]

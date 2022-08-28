@@ -14,7 +14,7 @@ the right page. Next up is my public key in different formats.
 
 [source]
 ----
-include::fingerprint[]
+include::assets/fingerprint[]
 ----
 
 This is my key fingerprint and it can be found around the various
@@ -23,11 +23,11 @@ I have not really bothered with keyservers so see below for the full key.
 
 == ASCII Armor
 
-link:marko_korhonen_gpg.asc[Click to download]
+link:assets/marko_korhonen_gpg.asc[Click to download]
 
 == OpenKeychain
 
 The following QR code should be importable in the Android app
 OpenKeyChain but this relys on keyservers so your results may vary.
 
-image:openkeychain.svg[OpenKeychain]
+image:assets/openkeychain.svg[OpenKeychain]
