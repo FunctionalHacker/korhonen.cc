@@ -10,30 +10,28 @@ I like PGP and I secure everything I can with it. If you would like to
 send me encrypted files, emails or anything of that sort, you came to
 the right page. Next up is my public key in different formats.
 
-== Fingerprint
+== Fingerprint and keyserver
 
 [source]
 ----
 include::assets/fingerprint[]
 ----
 
-This is my key fingerprint and it can be found around the various
-keyservers on the internet but since the demise of SKS keyservers,
-I have not really bothered with keyservers so see below for the full key.
+This is my key fingerprint and it can be found at the link:https://keys.openpgp.org/search?q=marko%40korhonen.cc[keys.openpgp.org] keyserver. If for some reason you cannot use this option, see <<_direct_download>>.
 
-== ASCII Armor
+== Direct download
 
-link:assets/marko_korhonen_gpg.asc[Click to download]
+link:assets/marko_korhonen_pgp.asc[Click here to download]
 
 == OpenKeychain
 
-The following QR code should be importable in the Android app
-OpenKeyChain but this relys on keyservers so your results may vary.
+The following QR code is importable in the Android app
+link:https://www.openkeychain.org[OpenKeychain].
 
-image:assets/openkeychain.svg[OpenKeychain]
+image:assets/openkeychain.svg[OpenKeychain QR code]
 
 == Update 2022-08-28: new key
 
-I have decided to change my old RSA key to ed25519. I have link:assets/marko_korhonen_gpg.asc.sig[signed the new key] with link:assets/marko_korhonen_gpg.asc[my old key] if you wish to verify cryptographically that the new key belongs to me (given that you believed that my old key belonged to me to begin with 😉).
+I have decided to change my old RSA key to ed25519. I have link:assets/marko_korhonen_pgp.asc.sig[signed the new key] with link:assets/old_key/marko_korhonen_pgp.asc[my old key] if you wish to verify cryptographically that the new key belongs to me (given that you believed that my old key belonged to me to begin with 😉). Revocation certificate for the old key is available at link:assets/old_key/marko_korhonen_pgp.rev[here].
 
 On a related note, I can wholeheartedly recommend changing to ed25519 to anyone. It is supposedly more secure than RSA but to my surprise, it is many times faster too. With my old key it used to take 2-3 seconds to decrypt a password from my password manager. Now, it's practically instant.

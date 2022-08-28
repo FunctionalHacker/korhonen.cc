@@ -9,31 +9,27 @@ Tykkään PGP:stä ja turvaan sillä kaiken minkä pystyn. Jos haluaisit lähett
 minulle enkryptoituja tiedostoja, sähköposteja tai muuta vastaavaa, tulit
 oikeaan paikkaan. Seuraavaksi on julkinen avaimeni saatavilla eri formaateissa.
 
-== Sormenjälki
+== Sormenjälki ja avainserveri
 
 [source]
 ----
 include::assets/fingerprint[]
 ----
 
-Tämä on avaimeni sormenjälki ja se löytyy monilta avainservereiltä. SKS
-avainserverien sulkeutumisen jälkeen en ole juurikaan ylläpitänyt
-avaintani servereillä.
+Tämä on avaimeni sormenjälki ja se löytyy link:https://keys.openpgp.org/search?q=marko%40korhonen.cc[keys.openpgp.org] avainserveriltä. Jos et jostakin syystä voi käyttää tätä vaihtoehtoa, katso <<_suora_lataus>>.
 
-== ASCII Armor
+== Suora lataus
 
 link:assets/marko_korhonen_gpg.asc[Klikkaa ladataksesi]
 
 == OpenKeychain
 
-Seuraava QR koodi pitäisi olla yhteensopiva OpenKeyChain Android-sovelluksen
-kanssa. Se taitaa kuitenkin luottaa avainservereihin, joten tuloksesi voi
-vaihdella.
+Seuraavan QR-koodin voi tuoda link:https://www.openkeychain.org[OpenKeychain] Android-sovellukseen
 
-image:assets/openkeychain.svg[OpenKeychain]
+image:assets/openkeychain.svg[OpenKeychain QR-koodi]
 
 == Päivitys 28.8.2022: uusi avain
 
-Olen päättänyt vaihtaa vanhan RSA-avaimeni ed25519 avaimeksi. Olen link:assets/marko_korhonen_gpg.asc.sig[allekirjoittanut uuden avaimen] link:assets/old_key/marko_korhonen_gpg.asc[vanhalla avaimellani], jos haluat varmistaa kryptograafisesti, että uusi avain kuuluu minulle (jos siis uskoit alunperinkään että vanha avain kuului minulle 😉).
+Olen päättänyt vaihtaa vanhan RSA-avaimeni ed25519 avaimeksi. Olen link:assets/marko_korhonen_gpg.asc.sig[allekirjoittanut uuden avaimen] link:assets/old_key/marko_korhonen_gpg.asc[vanhalla avaimellani], jos haluat varmistaa kryptograafisesti, että uusi avain kuuluu minulle (jos siis uskoit alunperinkään että vanha avain kuului minulle 😉). Vanhan avaimen peruutussertifikaatti löytyy link:assets/old_key/marko_korhonen_pgp.rev[täältä].
 
 Tähän liittyen, voin vilpittömästi suositella kenelle tahansa vaihtamista ed25519 avaimeen. Se on oletettavasti turvallisempi kuin RSA, mutta yllätyksekseni se on myös monta kertaa nopeampi. Vanhalla avaimellani salasanan salauksen purkaminen salasanamanageristani kesti 2-3 sekuntia. Nyt se on käytännössä välitöntä.

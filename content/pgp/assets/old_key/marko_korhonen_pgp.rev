@@ -1,0 +1,23 @@
+This is a revocation certificate for the OpenPGP key:
+
+pub   rsa4096/0xC514037F1EFF4FA6 2019-06-09 []
+      Key fingerprint = 1EFC 4DBB 0794 0711 3A76  1DF7 C514 037F 1EFF 4FA6
+uid                            Marko Korhonen <marko@korhonen.cc>
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: This is a revocation certificate
+
+iQI2BCABCgAgFiEEHvxNuweUBxE6dh33xRQDfx7/T6YFAlz9IdwCHQAACgkQxRQD
+fx7/T6ZnxhAAk8L9u3s2NZop7vDJo1jWMXIXkZXVPh8Qg9PqHoHbYuFrCEPYrQag
+DA8JvVgufsrn5EX6L7EUnD/dclbjwB2jQNxMXMYxZ8b2VfAEwaumPPCBgHuruj8f
+DkGW1jJ3jL3lHu5+nuMdIo3TSjcF+2A9lUG7Y5IzdUA72GDou2EawmciLNuJ7DTf
+fh+CMnCjyj6jUB0AbNSriQspqCcRvZaqNV7v9EcChZ3LsalAW9EM3At0RuYFGpoc
+rgOmj7+kT+quvNqYSTyUmOmqhC9Bt6vsTbhc7q2UBiAw4/oh9HI9mCyy5pnNWO7n
+VQo1mB5GY27FoAu1P8jj0CbcWx86OKtdA1bmKE2JaR2T9hBAaHce7qf1N2uFy9sb
+lO+8/Y4Mwuyn0BF0qju8Gun9AxUF94mL5ackQWKLdmMl7Io+J7hPBQWvo8Lm3bW9
+KmivKlcKd7N4J6vs7sXPhkA+DM3SL/Tb1eTLYqmgeV+9udRbYOMuq/s0PA85BM91
+ZG9s4Np02v9UXcmBkktltspcJLogftIptGgV2ci4E+d/8fJ+nONo3QS+Kf/lpnWX
+wMBwJhsx4cQyJN8Ne7YEs50rT9zxbj3o0a2wBPYi2EhWgs4gVwP/gguxv4q4nKKq
+L+fcgeTpZqpVTed60fAs32nrFS7clGqvIQpFWsY9qnyABbYAMxOtkXI=
+=jyJL
+-----END PGP PUBLIC KEY BLOCK-----
