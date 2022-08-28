@@ -15,7 +15,7 @@ Tarkastaaksesi oman prosessorisi yhteensopivuuden, aja seuraava komento.
 
 [source,shell]
 ----
-include::code_blocks/check_processor.sh[]
+include::assets/check_processor.sh[]
 ----
 
 Jos edeltävä komento ei tulosta mitään, prosessorisi ei valitettavasti
@@ -37,7 +37,7 @@ avainnippuusi ja luota siihen
 
 [source,shell]
 ----
-include::code_blocks/pacman_commands.sh[]
+include::assets/pacman_commands.sh[]
 ----
 
 Sitten lisää seuraava sisältö pacman konfiguraatioosi
@@ -45,5 +45,5 @@ Sitten lisää seuraava sisältö pacman konfiguraatioosi
 
 [source,shell]
 ----
-include::code_blocks/pacman.conf[]
+include::assets/pacman.conf[]
 ----
