@@ -1,7 +1,7 @@
 name = "Marko Korhonen"
 nickname = "Marko"
 greeting = "Hei, olen"
-image = "images/marko.jpg"
+image = "images/marko.png"
 summary = [
   "Olen kehittäjä",
   "Tykkään avoimesta lähdekoodista",
