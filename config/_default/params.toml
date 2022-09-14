@@ -12,8 +12,8 @@ enable = true
 default = "system"
 
 [logo]
-main = "images/marko.jpg"
-inverted = "images/marko.jpg"
+main = "images/marko.png"
+inverted = "images/marko.png"
 favicon = "favicon-32x32.png"
 
 [features.comment]
