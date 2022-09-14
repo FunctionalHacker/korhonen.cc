@@ -7,3 +7,5 @@ enableEmoji = true
 enableGitInfo = true
 
 urls = ['.*']
+
+staticDir = "assets"

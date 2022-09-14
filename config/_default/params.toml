@@ -1,6 +1,7 @@
 enableBlogPost = true
 enableTOC = true
 background = "images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"
+description = "Personal website and portfolio"
 
 [newsletter]
 enable = false
@@ -9,6 +10,10 @@ enable = false
 provider = "darkreader"
 enable = true
 default = "system"
+
+[logo]
+main = "images/marko.jpg"
+favicon = "favicon-32x32.png"
 
 [features.comment]
 enable = true
