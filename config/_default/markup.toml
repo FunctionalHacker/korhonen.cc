@@ -6,5 +6,5 @@ source-highlighter = "rouge"
 
 [tableOfContents]
 startLevel = 1
-endLevel = 2
+endLevel = 6
 ordered = false
