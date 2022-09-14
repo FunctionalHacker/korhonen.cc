@@ -2,6 +2,7 @@
 title: Creating this site
 description: My journey with AsciiDoc and Hugo, and how we got here
 date: 2022-09-14
+featured_image: hero.jpg
 menu:
   sidebar:
     name: Creating this site
