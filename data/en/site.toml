@@ -20,3 +20,9 @@ name = "Website source code"
 url = "https://git.korhonen.cc/FunctionalHacker/korhonen.cc"
 hideFromNavbar = true
 showOnFooter = true
+
+[[customMenus]]
+name = "Website analytics"
+url = "https://umami.korhonen.cc/share/GRslDxJt/korhonen.cc"
+hideFromNavbar = true
+showOnFooter = true
