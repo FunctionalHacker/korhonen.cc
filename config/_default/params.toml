@@ -3,6 +3,10 @@ enableTOC = true
 background = "images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"
 description = "Personal website and portfolio"
 
+gitRepo = "https://git.korhonen.cc/FunctionalHacker/korhonen.cc"
+gitBranch = "main"
+gitForge = "gitea"
+
 [newsletter]
 enable = false
 
