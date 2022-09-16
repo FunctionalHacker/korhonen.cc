@@ -1,1 +1,1 @@
-curl 'https://korhonen.cc/pgp/assets/marko_korhonen_gpg.asc' | gpg --import
+curl 'https://korhonen.cc/pgp/assets/marko_korhonen_pgp.asc' | gpg --import
