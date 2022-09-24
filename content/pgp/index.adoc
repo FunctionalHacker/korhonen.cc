@@ -37,6 +37,12 @@ link:https://www.openkeychain.org[OpenKeychain].
 
 image:assets/openkeychain.svg[OpenKeychain QR code]
 
+== Keybase
+
+I have setup an account in link:https://keybase.io/functionalhacker[Keybase] to prove
+ownership of some of my social media accounts and such. If you're interested in that
+sort of thing, check it out at the link above. You can also message me there.
+
 == Update 2022-08-28: new key
 
 I have decided to change my old RSA key to ed25519. I have link:assets/marko_korhonen_pgp.asc.sig[signed the new key] with link:assets/old_key/marko_korhonen_pgp.asc[my old key] if you wish to verify cryptographically that the new key belongs to me (given that you believed that my old key belonged to me to begin with 😉). Revocation certificate for the old key is available at link:assets/old_key/marko_korhonen_pgp.rev[here].

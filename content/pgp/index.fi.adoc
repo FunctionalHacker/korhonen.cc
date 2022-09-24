@@ -35,6 +35,13 @@ Seuraavan QR-koodin voi tuoda link:https://www.openkeychain.org[OpenKeychain] An
 
 image:assets/openkeychain.svg[OpenKeychain QR-koodi]
 
+== Keybase
+
+Olen perustanut käyttäjän link:https://keybase.io/functionalhacker[Keybasessa],
+jonka avulla voin todistaa omistajuuteni sosiaalisen median käyttäjiin ja muuta
+vastaavaa. Jos olet kiinnostunut tästä, käy yläpuolella olevassa linkissä.
+Voit myös laittaa minulle viestiä siellä.
+
 == Päivitys 28.8.2022: uusi avain
 
 Olen päättänyt vaihtaa vanhan RSA-avaimeni ed25519 avaimeksi. Olen link:assets/marko_korhonen_pgp.asc.sig[allekirjoittanut uuden avaimen] link:assets/old_key/marko_korhonen_pgp.asc[vanhalla avaimellani], jos haluat varmistaa kryptograafisesti, että uusi avain kuuluu minulle (jos siis uskoit alunperinkään että vanha avain kuului minulle 😉). Vanhan avaimen peruutussertifikaatti löytyy link:assets/old_key/marko_korhonen_pgp.rev[täältä].
