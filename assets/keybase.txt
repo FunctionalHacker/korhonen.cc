@@ -1,0 +1,62 @@
+==================================================================
+https://keybase.io/functionalhacker
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://korhonen.cc
+  * I am functionalhacker (https://keybase.io/functionalhacker) on keybase.
+  * I have a public key with fingerprint F2B9 F713 E7ED 6273 36DD  85E4 44FA 3F28 CD93 1BB0
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01162cfaba70936275e5947d97db2a7a46588712ea22643879c7915589fb0d1c18c80a",
+      "fingerprint": "f2b9f713e7ed627336dd85e444fa3f28cd931bb0",
+      "host": "keybase.io",
+      "key_id": "44fa3f28cd931bb0",
+      "kid": "01162cfaba70936275e5947d97db2a7a46588712ea22643879c7915589fb0d1c18c80a",
+      "uid": "0be7965b1e2b374a45156cddff7cde19",
+      "username": "functionalhacker"
+    },
+    "service": {
+      "hostname": "korhonen.cc",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1664051513,
+  "expire_in": 157680000,
+  "prev": "f769c5f7ee92a1e708112eb47cf0aab8522d3ae9d1726a962d57f450d5ba2aa2",
+  "seqno": 2,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkj1oFEEUxzeagxg/sLoqAZ3C6og7szszO4egoI1WImnEYpmPN3fLnbvn7l40
+hDSCkJAmWFkYG8EPrK+y0M4iWEQQLFQ4gkXAQrSwUNGZmHSWTjPMe//3e//3mPWj
+B4Op5uPva5t37r9bn9jcUYE+nV1YQqowi6i9hHqwe0HfQFWnvcygNgoxZkRbqSQP
+RcQIp0BFzI3gRhHJZcxoknBMQBLC4ijhQnOBKU2EVaHBGic6CSVqIZvlHSgHZZbX
+DmuJEpbjCDgYB40iZkxCIY5jKyNLEm1EhJUKXWG3qHyFM6dkBXNZ4WLuke7a+4f+
+P/se/sUp4IJRhYGoiMcyppgybYy1XBvAwgsrKHN5Hfx0w1zXWZHLflfqHpRouYVc
+diHT4BfsJ9pT9oqyW+SQz2ntEIOyqAtd9F2iW9eDqu0L68WBV94Ele4xUpXlxq3T
+VSxAWblGqI2d0vX0UMxYHDp/OGohuDXISkgzr6CcJaE7vg8sOGRqOROaWg4giMTA
+wwS7jaiYaxtKqRJKiIkkCIM5YVIwYii3MQ0NVZJISZAf60ZeoDZxPmXHMausk8t6
+WAJanl4ZTgbNqWC2eXLyKXo9frYx+nX2pTqz/wMbB/z3C6YPHd+PrHwIfjTml9JT
+MzNrxzqPLn65dPfa4cabT9uXv5n3z7dmz2/TexPB74+j26MT8tW4/vpgfvXnzvjF
+1fQc2Vp9+PbKkc8bT4I/
+=jrlK
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/functionalhacker
+
+==================================================================
