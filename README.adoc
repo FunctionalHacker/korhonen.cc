@@ -1,7 +1,7 @@
 = korhonen.cc website
 
-[link="https://drone.korhonen.cc/FunctionalHacker/korhonen.cc"]
-image::https://drone.korhonen.cc/api/badges/FunctionalHacker/korhonen.cc/status.svg[Build status]
+[link="https://ci.korhonen.cc/FunctionalHacker/korhonen.cc"]
+image::https://ci.korhonen.cc/api/badges/FunctionalHacker/korhonen.cc/status.svg[Build status]
 
 This is the source code to my main website.
 
