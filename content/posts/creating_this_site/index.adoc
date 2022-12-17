@@ -2,6 +2,7 @@
 title: Creating this site
 description: My journey with AsciiDoc and Hugo, and how we got here
 date: 2022-09-14
+lastmod:
 featured_image: hero.jpg
 menu:
   sidebar:
@@ -98,7 +99,8 @@ documentation and native link:https://gitea.io[Gitea] Support
 pipeline took a little bit more trial and error but in the end it proved
 to be pretty easy.
 
-Relevant configuration
+Relevant configuration files
+
 * link:https://git.korhonen.cc/FunctionalHacker/korhonen.cc/src/branch/main/.woodpecker.yml[Pipeline for building this website]
 * link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/gitea/docker-compose.toml[Gitea server configuration]
 * link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/woodpecker/docker-compose.toml[Woodpecker CI configuration]
