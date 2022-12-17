@@ -15,6 +15,11 @@ name = "Rossum Oy"
 url = "https://rossum.fi"
 
 [[socialLinks]]
+name = "Mastodon"
+icon = "fab fa-mastodon"
+url = "https://social.korhonen.cc/@marko"
+
+[[socialLinks]]
 name = "GitHub"
 icon = "fab fa-github"
 url = "https://www.github.com/FunctionalHacker"
@@ -28,6 +33,11 @@ url = "https://www.linkedin.com/in/functionalhacker"
 name = "Telegram"
 icon = "fab fa-telegram"
 url = "https://t.me/FunctionalHacker"
+
+[[socialLinks]]
+name = "WhatsApp"
+icon = "fab fa-whatsapp"
+url = "https://wa.me/+358407658800"
 
 [[softSkills]]
 name = "Teamwork"
