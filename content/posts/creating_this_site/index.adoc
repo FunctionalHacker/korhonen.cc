@@ -84,22 +84,23 @@ self-hostable and I didn't feel like implementing support for a different
 platform myself. This might be a cool future project at some point though.
 
 == Automating the build process
+_Update 2022-12-17: I have switched from Drone CI to Woodpecker CI. Woodpecker is a FOSS fork of Drone as Drone has moved to a proprietary license._
+
 While I was setting up this site, I found out about
-link:https://www.drone.io[Drone] which seems to suit my needs beautifully.
+link:https://woodpecker-ci.org[Woodpecker CI] which seems to suit my needs beautifully.
 I have tried link:https://www.jenkins.io[Jenkins] in the past but didn't
 find it very easy to work with and I didn't like the fact that it was so heavy
 on resources.
 
-Setting up Drone took only about 30 minutes thanks to the excellent
+Setting up Woodpecker took only about 30 minutes thanks to the excellent
 documentation and native link:https://gitea.io[Gitea] Support
 (which I was already using for some years before this). Setting up the
 pipeline took a little bit more trial and error but in the end it proved
 to be pretty easy.
 
 You can see the pipeline
-link:https://git.korhonen.cc/FunctionalHacker/korhonen.cc/src/branch/main/.drone.yml[here]
-and my Gitea/Drone configuration
-link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/gitea/docker-compose.toml[here].
+link:https://git.korhonen.cc/FunctionalHacker/korhonen.cc/src/branch/main/.woodpecker.yml[here] my Gitea configuration
+link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/gitea/docker-compose.toml[here] and Woodpecker configuration link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/woodpecker/docker-compose.toml[here].
 
 == Future plans
 I don't plan to become a regular blogger any time soon but if I find
