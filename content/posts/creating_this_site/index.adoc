@@ -87,6 +87,8 @@ platform myself. This might be a cool future project at some point though.
 == Automating the build process
 _Update 2022-12-17: I have switched from Drone CI to Woodpecker CI. Woodpecker is a FOSS fork of Drone as Drone has moved to a proprietary license._
 
+_Update 2022-12-17 part 2: I have switched from Gitea to Forgejo. Forgejo is a FOSS fork of Gitea as Gitea seems to be moving towards a closed business model._
+
 While I was setting up this site, I found out about
 link:https://woodpecker-ci.org[Woodpecker CI] which seems to suit my needs beautifully.
 I have tried link:https://www.jenkins.io[Jenkins] in the past but didn't
@@ -94,7 +96,7 @@ find it very easy to work with and I didn't like the fact that it was so heavy
 on resources.
 
 Setting up Woodpecker took only about 30 minutes thanks to the excellent
-documentation and native link:https://gitea.io[Gitea] Support
+documentation and native link:https://forgejo.org[Forgejo] Support
 (which I was already using for some years before this). Setting up the
 pipeline took a little bit more trial and error but in the end it proved
 to be pretty easy.
@@ -102,7 +104,7 @@ to be pretty easy.
 Relevant configuration files
 
 * link:https://git.korhonen.cc/FunctionalHacker/korhonen.cc/src/branch/main/.woodpecker.yml[Pipeline for building this website]
-* link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/gitea/docker-compose.toml[Gitea server configuration]
+* link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/forgejo/docker-compose.toml[Forgejo server configuration]
 * link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/woodpecker/docker-compose.toml[Woodpecker CI configuration]
 
 == Future plans
