@@ -98,9 +98,10 @@ documentation and native link:https://gitea.io[Gitea] Support
 pipeline took a little bit more trial and error but in the end it proved
 to be pretty easy.
 
-You can see the pipeline
-link:https://git.korhonen.cc/FunctionalHacker/korhonen.cc/src/branch/main/.woodpecker.yml[here] my Gitea configuration
-link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/gitea/docker-compose.toml[here] and Woodpecker configuration link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/woodpecker/docker-compose.toml[here].
+Relevant configuration
+* link:https://git.korhonen.cc/FunctionalHacker/korhonen.cc/src/branch/main/.woodpecker.yml[Pipeline for building this website]
+* link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/gitea/docker-compose.toml[Gitea server configuration]
+* link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/woodpecker/docker-compose.toml[Woodpecker CI configuration]
 
 == Future plans
 I don't plan to become a regular blogger any time soon but if I find
