@@ -15,7 +15,7 @@ name = "Rossum Oy"
 url = "https://rossum.fi"
 
 [[socialLinks]]
-name = "Mastodon"
+name = "Fediverse"
 icon = "fab fa-mastodon"
 url = "https://social.korhonen.cc/@marko"
 
