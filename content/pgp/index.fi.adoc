@@ -7,40 +7,11 @@ date: 2022-06-10
 
 Tykkään PGP:stä ja turvaan sillä kaiken minkä pystyn. Jos haluaisit lähettää
 minulle enkryptoituja tiedostoja, sähköposteja tai muuta vastaavaa, tulit
-oikeaan paikkaan. Seuraavaksi on julkinen avaimeni saatavilla eri formaateissa.
+oikeaan paikkaan.
 
-== Sormenjälki ja avainserveri
-
-[source]
-----
-include::assets/fingerprint[]
-----
-
-Tämä on avaimeni sormenjälki ja se löytyy link:https://keys.openpgp.org/search?q=marko%40korhonen.cc[keys.openpgp.org] avainserveriltä. Jos et jostakin syystä voi käyttää tätä vaihtoehtoa, katso <<_suora_lataus>>.
-
-== Suora lataus
-
-link:assets/marko_korhonen_pgp.asc[Klikkaa ladataksesi]
-
-Tuodaksesi avaimen link:https://gnupg.org[GnuPG]:hen Linuxilla, aja seuraava komento
-
-[source,shell]
-----
-include::assets/pgp_import.sh[]
-----
-
-== OpenKeychain
-
-Seuraavan QR-koodin voi tuoda link:https://www.openkeychain.org[OpenKeychain] Android-sovellukseen
-
-image:assets/openkeychain.svg[OpenKeychain QR-koodi]
-
-== Keybase
-
-Olen perustanut käyttäjän link:https://keybase.io/functionalhacker[Keybasessa],
-jonka avulla voin todistaa omistajuuteni sosiaalisen median käyttäjiin ja muuta
-vastaavaa. Jos olet kiinnostunut tästä, käy yläpuolella olevassa linkissä.
-Voit myös laittaa minulle viestiä siellä.
+Minulla on link:https://https://keyoxide.org/wkd/marko%40korhonen.cc[Keyoxide profiili]
+josta löydät kaikki tarvittavat tiedot avaimestani. Keyoxide toimii myös todisteena
+monista omistamistani tileistä netissä.
 
 == Päivitys 28.8.2022: uusi avain
 

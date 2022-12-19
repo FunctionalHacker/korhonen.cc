@@ -8,40 +8,13 @@ featured_image: hero.jpg
 
 I like PGP and I secure everything I can with it. If you would like to
 send me encrypted files, emails or anything of that sort, you came to
-the right page. Next up is my public key in different formats.
+the right page.
 
-== Fingerprint and keyserver
+== Keyoxide
 
-[source]
-----
-include::assets/fingerprint[]
-----
-
-This is my key fingerprint and it can be found at the link:https://keys.openpgp.org/search?q=marko%40korhonen.cc[keys.openpgp.org] keyserver. If for some reason you cannot use this option, see <<_direct_download>>.
-
-== Direct download
-
-link:assets/marko_korhonen_pgp.asc[Click here to download]
-
-To import the key to link:https://gnupg.org[GnuPG] on Linux, run the following command
-
-[source,shell]
-----
-include::assets/pgp_import.sh[]
-----
-
-== OpenKeychain
-
-The following QR code is importable in the Android app
-link:https://www.openkeychain.org[OpenKeychain].
-
-image:assets/openkeychain.svg[OpenKeychain QR code]
-
-== Keybase
-
-I have setup an account in link:https://keybase.io/functionalhacker[Keybase] to prove
-ownership of some of my social media accounts and such. If you're interested in that
-sort of thing, check it out at the link above. You can also message me there.
+I have setup a link:https://https://keyoxide.org/wkd/marko%40korhonen.cc[profile at Keyoxide]
+which has all of the information about my key. It also serves as proof of ownership to many
+of my online accounts.
 
 == Update 2022-08-28: new key
 
