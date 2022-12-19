@@ -14,7 +14,7 @@ josta löydät kaikki tarvittavat tiedot avaimestani. Keyoxide toimii myös todi
 monista omistamistani tileistä netissä.
 
 Olen myös asentanut WKD (Web Key Directory) serverin joten tuetut ohjelmat pystyvät noutamaan
-avaimen automaattisesti sähköpostiosoitteeni link:mailto:marko@korhonen.cc perusteella.
+avaimen automaattisesti sähköpostiosoitteeni mailto:marko@korhonen.cc[] perusteella.
 
 == Päivitys 28.8.2022: uusi avain
 
