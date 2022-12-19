@@ -16,7 +16,7 @@ I have setup a link:https://keyoxide.org/wkd/marko%40korhonen.cc[profile at Keyo
 which has all of the information about my key. It also serves as proof of ownership to many
 of my online accounts.
 
-I also have a WKD (Web Key Directory) server setup so supported clients should be able to automatically import my key based on my email marko (at) korhonen.cc.
+I also have a WKD (Web Key Directory) server setup so supported clients should be able to automatically import my key based on my email link:mailto:marko@korhonen.cc
 
 == Update 2022-08-28: new key
 
