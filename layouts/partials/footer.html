@@ -182,7 +182,7 @@
             Toha
           </a>
         </div>
-        <div class="col-md-4 text-center">{{ $copyrightNotice | markdownify }}</div>
+			<div class="col-md-4 text-center">{{ replace $copyrightNotice "{year}" now.Year | markdownify }}</div>
         <div class="col-md-4 text-right">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">{{ i18n "hugoAttributionText" }}
           <img
