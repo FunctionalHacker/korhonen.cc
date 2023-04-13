@@ -23,8 +23,8 @@
       </h5>
       {{ end }}
       <p class="p-1 text-justify">
-        {{ .summary | markdownify }}
-      </p>
+		{{ replace .summary "$workingExperienceYears" (sub now.Year 2020) | markdownify }}
+	  </p>
       <div class="text-container ml-auto">
         <ul class="social-link d-flex">
           {{ range .socialLinks }}
@@ -33,8 +33,6 @@
               <a href="mailto:{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener"><i class="{{ .icon }}"></i></a>
             {{ else if eq .name (i18n "phone") }}
               <a href="tel:{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener"><i class="{{ .icon }}"></i></a>
-            {{ else if eq .name "Fediverse" }}
-              <a href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener me"><i class="{{ .icon }}"></i></a>
             {{ else }}
               <a href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener"><i class="{{ .icon }}"></i></a>
             {{ end }}

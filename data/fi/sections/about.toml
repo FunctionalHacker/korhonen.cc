@@ -1,6 +1,6 @@
 designation = "Ohjelmistokehittäjä"
 resume = "files/cv-fin.pdf"
-summary = "Olen innokas ohjelmistokehittäjä kahden vuoden työkokemuksella. Tykkään paljon myös avoimesta lähdekoodista, Linuxista ja servereistä."
+summary = "Olen innokas ohjelmistokehittäjä $workingExperienceYears vuoden työkokemuksella. Tykkään paljon myös avoimesta lähdekoodista, Linuxista ja servereistä."
 
 [section]
 name = "Yleistä"
