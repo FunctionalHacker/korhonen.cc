@@ -9,7 +9,7 @@ showOnNavbar = true
 
 [experiences.company]
 name = "Rossum Oy"
-url = "https://www.rossum.fi"
+url = "https://rossum.fi/etusivu"
 location = "Lahti"
 overview = "Rossum Oy on vakiintunut suomalainen ohjelmistoyritys."
 
