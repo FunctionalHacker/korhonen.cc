@@ -80,7 +80,7 @@ platform so all I needed to do was to create a repository in GitHub with
 the discussions feature enabled and configure it in Toha (the Hugo theme
 I selected).
 
-I went through all of the options that Toha supported but none of theme were
+I went through all of the options that Toha supported but none of them were
 self-hostable and I didn't feel like implementing support for a different
 platform myself. This might be a cool future project at some point though.
 
