@@ -29,12 +29,12 @@
         <ul class="social-link d-flex">
           {{ range .socialLinks }}
           <li>
-            {{ if eq .name "Email" }}
+            {{ if eq .name (i18n "email") }}
               <a href="mailto:{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener"><i class="{{ .icon }}"></i></a>
-            {{ else if eq .name "GitHub" }}
-              <a href="{{ .url }}" title="{{ .name }}" target="_blank" rel="me"><i class="{{ .icon }}"></i></a>
             {{ else if eq .name (i18n "phone") }}
               <a href="tel:{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener"><i class="{{ .icon }}"></i></a>
+            {{ else if eq .name "GitHub" }}
+              <a href="{{ .url }}" title="{{ .name }}" target="_blank" rel="me"><i class="{{ .icon }}"></i></a>
             {{ else }}
               <a href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener"><i class="{{ .icon }}"></i></a>
             {{ end }}
