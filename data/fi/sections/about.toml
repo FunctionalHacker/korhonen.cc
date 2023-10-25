@@ -15,9 +15,14 @@ name = "Rossum Oy"
 url = "https://rossum.fi"
 
 [[socialLinks]]
-name = "Fediverse"
-icon = "fab fa-mastodon"
-url = "https://social.korhonen.cc/@marko"
+name = "Sähköposti"
+icon = "fab fa-envelope"
+url = "tel:+358407658800"
+
+[[socialLinks]]
+name = "Puhelin"
+icon = "fab fa-phone"
+url = "mailto:marko@korhonen.cc"
 
 [[socialLinks]]
 name = "GitHub"
@@ -28,6 +33,11 @@ url = "https://www.github.com/FunctionalHacker"
 name = "LinkedIn"
 icon = "fab fa-linkedin"
 url = "https://www.linkedin.com/in/functionalhacker"
+
+[[socialLinks]]
+name = "Fediverse"
+icon = "fab fa-mastodon"
+url = "https://social.korhonen.cc/@marko"
 
 [[socialLinks]]
 name = "Telegram"
