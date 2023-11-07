@@ -16,12 +16,12 @@ url = "https://rossum.fi"
 
 [[socialLinks]]
 name = "Email"
-icon = "fa fa-envelope"
+icon = "fas fa-envelope"
 url = "marko@korhonen.cc"
 
 [[socialLinks]]
 name = "Phone"
-icon = "fa fa-phone"
+icon = "fas fa-phone"
 url = "+358407658800"
 
 [[socialLinks]]
