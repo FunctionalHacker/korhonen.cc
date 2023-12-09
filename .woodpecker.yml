@@ -1,13 +1,13 @@
-pipeline:
+steps:
   submodules:
     image: alpine/git
     commands:
-    - git submodule update --init --recursive
+      - git submodule update --init --recursive
 
   build:
     image: klakegg/hugo:ext-asciidoctor-ci
     commands:
-    - rm -r /korhonen.cc/*
-    - hugo -d /korhonen.cc
+      - rm -r /korhonen.cc/*
+      - hugo -d /korhonen.cc
     volumes:
-    - /var/www/korhonen.cc:/korhonen.cc
+      - /var/www/korhonen.cc:/korhonen.cc
