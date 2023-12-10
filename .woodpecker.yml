@@ -2,7 +2,7 @@ steps:
   build:
     image: klakegg/hugo:ext-asciidoctor-ci
     commands:
-      - rm -r /korhonen.cc/*
+      #      - rm -r /korhonen.cc/*
       - npm install
       - hugo -d /korhonen.cc
     volumes:
