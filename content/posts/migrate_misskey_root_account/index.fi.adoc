@@ -1,0 +1,57 @@
+---
+title: Misskeyn root-tilin migraatio
+date: 2023-12-10T11:41:08+02:00
+---
+:toc:
+= Misskeyn root-tilin migraatio
+
+Vaihdoin äskettäin yhden käyttäjän Fediverse-palvelimeni
+https://misskey-hub.net[Misskey]stä https://joinfirefish.org[Firefish]in ja
+kohtasin ongelman, jota en löytänyt dokumentoituna muualla. Päätin jakaa
+löytämäni ratkaisun, jos joku muu hyötyisi siitä ja säästäisi aikaansa
+tulevaisuudessa.
+
+Päätin samalla siirtyä uuteen verkkotunnukseen, joten helpoin tapa oli luoda 
+uusi palvelin ja migratoida käyttäjätili sen sijaan, että vaivautuisin
+migratoimaan koko Misskey-instanssia.
+
+Koska kyseessä oli yhden käyttäjän instanssi, tili oli myös Misskeyn "root"
+tili.  Misskey ei salli root-tilin siirtämistä, ja jos yrität, saat virheen
+"root cannot migrate" tai jotain sinne päin.
+
+== Ratkaisu
+
+Menin tietokantaan selvittääkseni, mitä voisin tehdä ohittamalla
+käyttöliittymän, ja kas, löysin `isRoot`-sarakkeen `user`-taulusta. En
+kuitenkaan halunnut jäädä ilman root-tiliä vanhassa instanssissani,
+joten menin Misskeyn hallintapaneeliin ja loin uuden tilin, yksinkertaisesti
+nimeltään 'root'.
+
+Misskey näyttää tallentavan kaikki tunnetut käyttäjät `user`-tauluun, ei vain
+varsinaisia paikallia käyttäjätilejä. Paikallisten tilien löytämiseksi voit 
+käyttää seuraavaa kyselyä
+
+[source]
+----
+include::code/query_users[]
+----
+
+Nyt voit yksinkertaisesti asettaa uuden root-tilin `isRoot`-sarakkeen arvoksi
+`true` ja oman käyttäjätilin arvoksi `false`. Sen jälkeen migraation pitäisi
+toimia.
+
+[source]
+----
+include::code/update_users[]
+----
+
+Kannattaa varmistaa, että muutit vain 2 riviä ennen kuin kommitoit 
+transaktion.
+
+Olettaisin, että tämä ratkaisu toimii myös Misskey forkeissa, mutta en ole
+testannut.
+
+Jos tästä postauksesta oli sinulle hyötyä, muist jakaa, twiitata, tuutata ja 
+piippailla se haluamassasi sosiaalisen median palvelussa. Jos sinulla on
+ongelmia tässä prosessissa, voit myös käyttää alla olevaa kommenttikenttää,
+niin voin yrittää auttaa.
