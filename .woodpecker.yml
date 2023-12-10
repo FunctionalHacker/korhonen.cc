@@ -1,6 +1,8 @@
 steps:
   build:
     image: klakegg/hugo:ext-asciidoctor-ci
+    environment:
+      - GOROOT=/usr/local/bin/go
     commands:
       #      - rm -r /korhonen.cc/*
       - npm install
