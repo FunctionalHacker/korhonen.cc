@@ -1,5 +1,6 @@
 ---
 title: Migrate Misskey root account
+description: A solution for an issue I found when migrating from Misskey to Firefish
 date:  2023-12-10T11:41:08+02:00
 featured_image: hero.jpg
 menu:
