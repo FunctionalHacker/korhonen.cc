@@ -8,7 +8,6 @@ menu:
   sidebar:
     name: Creating this site
     identifier: creating_this_site
-    weight: 1
 ---
 :toc:
 = Creating this site

@@ -1,12 +1,17 @@
 ---
 title: Misskeyn root-tilin migraatio
 date: 2023-12-10T11:41:08+02:00
+featured_image: hero.jpg
+menu:
+  sidebar:
+    name: Misskeyn root-tilin migraatio
+    identifier: migrate_misskey_root_account
 ---
 :toc:
 = Misskeyn root-tilin migraatio
 
 Vaihdoin äskettäin yhden käyttäjän Fediverse-palvelimeni
-https://misskey-hub.net[Misskey]stä https://joinfirefish.org[Firefish]in ja
+https://misskey-hub.net[Misskey]stä https://joinfirefish.org[Firefish]iin ja
 kohtasin ongelman, jota en löytänyt dokumentoituna muualla. Päätin jakaa
 löytämäni ratkaisun, jos joku muu hyötyisi siitä ja säästäisi aikaansa
 tulevaisuudessa.

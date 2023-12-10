@@ -1,6 +1,11 @@
 ---
 title: Migrate Misskey root account
 date:  2023-12-10T11:41:08+02:00
+featured_image: hero.jpg
+menu:
+  sidebar:
+    name: Migrate Misskey root account
+    identifier: migrate_misskey_root_account
 ---
 :toc:
 = Migrate Misskey root account
