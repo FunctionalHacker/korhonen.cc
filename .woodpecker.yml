@@ -7,7 +7,7 @@ steps:
   build:
     image: klakegg/hugo:ext-asciidoctor-ci
     commands:
-      - rm -r /korhonen.cc/*
+      - rm -rf /korhonen.cc/*
       - hugo -d /korhonen.cc
     volumes:
       - /var/www/korhonen.cc:/korhonen.cc
