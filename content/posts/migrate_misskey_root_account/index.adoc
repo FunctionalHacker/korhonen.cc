@@ -56,6 +56,5 @@ I would imagine that this solution should work for the numerous Misskey forks
 around, but I have not tested it so your results may vary.
 
 If you found this post useful, make sure to share, tweet, toot, bleep and bloop
-this on your social media service of choice. If you have any issues,
-you can also use the comments below if you have any issues with this
-process and I will try to help you out.
+this on your social media service of choice. If you have any issues with this 
+process, you can leave a comment below and I will try to help you out.
