@@ -58,7 +58,7 @@ transaktion.
 Olettaisin, että tämä ratkaisu toimii myös Misskey forkeissa, mutta en ole
 testannut.
 
-Jos tästä postauksesta oli sinulle hyötyä, muist jakaa, twiitata, tuutata ja 
+Jos tästä postauksesta oli sinulle hyötyä, muista jakaa, twiitata, tuutata ja 
 piippailla se haluamassasi sosiaalisen median palvelussa. Jos sinulla on
 ongelmia tässä prosessissa, voit myös käyttää alla olevaa kommenttikenttää,
 niin voin yrittää auttaa.
