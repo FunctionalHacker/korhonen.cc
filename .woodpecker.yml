@@ -1,10 +1,13 @@
 steps:
+  submodules:
+    image: alpine/git
+    commands:
+      - git submodule update --init --recursive
+
   build:
     image: klakegg/hugo:ext-asciidoctor-ci
     commands:
-      # - rm -r /korhonen.cc/*
-      - npm install
-      - export GOROOT=/usr/local/lib/go
+      - rm -r /korhonen.cc/*
       - hugo -d /korhonen.cc
     volumes:
       - /var/www/korhonen.cc:/korhonen.cc

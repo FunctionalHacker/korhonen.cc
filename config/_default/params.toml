@@ -11,8 +11,9 @@ gitForge = "gitea"
 enable = false
 
 [darkMode]
+provider = "darkreader"
 enable = true
-#default = "system"
+default = "system"
 
 [logo]
 main = "images/marko.png"
