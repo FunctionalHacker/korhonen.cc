@@ -1,11 +1,8 @@
 baseURL = 'https://korhonen.cc'
 languageCode = 'en-us'
 title = 'Marko Korhonen'
-theme = 'toha'
 
 enableEmoji = true
 enableGitInfo = true
 
 urls = ['.*']
-
-staticDir = "assets"

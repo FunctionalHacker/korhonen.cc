@@ -1,6 +1,4 @@
-enableBlogPost = true
-enableTOC = true
-background = "images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"
+background = "/images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"
 description = "Personal website and portfolio"
 
 gitRepo = "https://git.korhonen.cc/FunctionalHacker/korhonen.cc"
@@ -10,20 +8,20 @@ gitForge = "gitea"
 [newsletter]
 enable = false
 
-[darkMode]
-provider = "darkreader"
-enable = true
-default = "system"
-
 [logo]
-main = "images/marko.png"
-inverted = "images/marko.png"
-favicon = "favicon-32x32.png"
+main = "/images/marko.png"
+inverted = "/images/marko.png"
+favicon = "/favicon-32x32.png"
+
+[features.toc]
+enable = true
+
+[features.darkMode]
+enable = true
 
 [features.comment]
 enable = true
-
-[features.comment.giscus]
+[features.comment.services.giscus]
 repo = "FunctionalHacker/korhonen.cc"
 repoID = "R_kgDOHfIUew"
 category = "Announcements"
@@ -31,11 +29,10 @@ categoryID = "DIC_kwDOHfIUe84CPnO-"
 theme = "preferred_color_scheme"
 
 [features.support]
-enabled = true
+enabled = false
 
 [features.blog]
 enable = true
-
 [features.blog.sharebuttons]
 facebook = true
 twitter = true
