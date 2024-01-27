@@ -8,5 +8,3 @@ steps:
       - hugo --gc --cleanDestinationDir --enableGitInfo -d /korhonen.cc
     volumes:
       - /var/www/korhonen.cc:/korhonen.cc
-    environment:
-      - GOROOT=/usr/local/lib/go
