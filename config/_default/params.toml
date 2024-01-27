@@ -9,8 +9,8 @@ gitForge = "gitea"
 enable = false
 
 [logo]
-main = "/images/marko.png"
-inverted = "/images/marko.png"
+main = "/images/marko.jpeg"
+inverted = "/images/marko.jpeg"
 favicon = "/favicon.png"
 
 [features.toc]
