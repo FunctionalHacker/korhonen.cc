@@ -5,7 +5,6 @@ steps:
       - hugo mod tidy
       - hugo mod npm pack
       - npm install
-      - rm -rf /korhonen.cc/*
-      - hugo --gc -d /korhonen.cc
+      - hugo --gc --cleanDestinationDir --enableGitInfo -d /korhonen.cc
     volumes:
       - /var/www/korhonen.cc:/korhonen.cc

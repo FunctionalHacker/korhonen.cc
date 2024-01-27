@@ -11,7 +11,7 @@ enable = false
 [logo]
 main = "/images/marko.png"
 inverted = "/images/marko.png"
-favicon = "/favicon-32x32.png"
+favicon = "/favicon.png"
 
 [features.toc]
 enable = true

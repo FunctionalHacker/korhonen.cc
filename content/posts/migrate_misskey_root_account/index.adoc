@@ -36,7 +36,7 @@ Misskey seems to save all of it's known users to the `user` table, not only
 the actual local accounts. To find the local accounts only, you can use
 the following query
 
-[source]
+[source,sql]
 ----
 include::code/query_users[]
 ----
@@ -44,7 +44,7 @@ include::code/query_users[]
 Now you can simply make your new root account's `isRoot` column `true` and
 your actual user account `false`. After that, the migration will work.
 
-[source]
+[source,sql]
 ----
 include::code/update_users[]
 ----
