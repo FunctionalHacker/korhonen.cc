@@ -2,8 +2,6 @@ steps:
   build:
     image: klakegg/hugo:ext-asciidoctor-ci
     commands:
-      - hugo mod tidy
-      - hugo mod npm pack
       - npm install
       - hugo --gc --cleanDestinationDir --enableGitInfo -d /korhonen.cc
     volumes:

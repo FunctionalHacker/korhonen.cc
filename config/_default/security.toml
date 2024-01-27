@@ -9,4 +9,3 @@ getenv = ['^HUGO_']
 
 [http]
 methods = ['(?i)GET|POST']
-
