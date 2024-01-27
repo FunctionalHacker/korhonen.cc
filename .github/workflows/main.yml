@@ -6,7 +6,9 @@ permissions:
   id-token: write
 jobs:
   build:
-    runs-on: docker://git.korhonen.cc/functionalhacker/hugo-asciidoc-docker-ci:latest
+    runs-on: ubuntu-latest
+    container: 
+      image: docker://git.korhonen.cc/functionalhacker/hugo-asciidoc-docker-ci:latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
