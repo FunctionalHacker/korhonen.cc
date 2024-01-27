@@ -3,6 +3,6 @@ languageCode = 'en-us'
 title = 'Marko Korhonen'
 
 enableEmoji = true
-enableGitInfo = true
+enableGitInfo = false
 
 urls = ['.*']

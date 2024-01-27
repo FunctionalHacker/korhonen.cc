@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - run: npm install
-      - run: hugo --gc --minify --cleanDestinationDir -d /korhonen.cc
+      - run: hugo --gc --minify
 
   deploy:
     runs-on: ubuntu-latest
