@@ -3,7 +3,7 @@ steps:
     image: git.korhonen.cc/functionalhacker/hugo-asciidoc-docker-ci:latest
     commands:
       - npm install
-      - hugo --gc --cleanDestinationDir --enableGitInfo -d /korhonen.cc
+      - hugo --gc --cleanDestinationDir -d /korhonen.cc
     volumes:
       - /var/www/korhonen.cc:/korhonen.cc
     environment:
