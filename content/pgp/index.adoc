@@ -6,20 +6,17 @@ featured_image: hero.jpg
 ---
 = PGP
 
-I like PGP and I secure everything I can with it. If you would like to
-send me encrypted files, emails or anything of that sort, you came to
-the right page.
+I like PGP and I secure everything I can with it.
+If you would like to send me encrypted files, emails or anything of that sort, you came to the right page.
 
 == Keyoxide
 
-I have setup a link:https://keyoxide.org/wkd/marko%40korhonen.cc[profile at Keyoxide]
-which has all of the information about my key. It also serves as proof of ownership to many
-of my online accounts.
+I have setup a link:https://keyoxide.org/wkd/marko%40korhonen.cc[profile at Keyoxide] which has all of the information about my key.
+It also serves as proof of ownership to many of my online accounts.
 
 == WKD
 
-I also have a WKD (Web Key Directory) server setup so supported clients should be able to
-automatically import my key based on my email address mailto:marko@korhonen.cc[]
+I also have a WKD (Web Key Directory) server setup so supported clients should be able to automatically import my key based on my email address mailto:marko@korhonen.cc[]
 
 === Fetch key with Sequoia
 
@@ -37,6 +34,11 @@ include::assets/gpg.sh[]
 
 == Update 2022-08-28: new key
 
-I have decided to change my old RSA key to ed25519. I have link:assets/marko_korhonen_pgp.asc.sig[signed the new key] with link:assets/old_key/marko_korhonen_pgp.asc[my old key] if you wish to verify cryptographically that the new key belongs to me (given that you believed that my old key belonged to me to begin with 😉). Revocation certificate for the old key is available at link:assets/old_key/marko_korhonen_pgp.rev[here].
+I have decided to change my old RSA key to ed25519.
+I have link:assets/marko_korhonen_pgp.asc.sig[signed the new key] with link:assets/old_key/marko_korhonen_pgp.asc[my old key] if you wish to verify cryptographically that the new key belongs to me (given that you believed that my old key belonged to me to begin with 😉).
+Revocation certificate for the old key is available at link:assets/old_key/marko_korhonen_pgp.rev[here].
 
-On a related note, I can wholeheartedly recommend changing to ed25519 to anyone. It is supposedly more secure than RSA but to my surprise, it is many times faster too. With my old key it used to take 2-3 seconds to decrypt a password from my password manager. Now, it's practically instant.
+On a related note, I can wholeheartedly recommend changing to ed25519 to anyone.
+It is supposedly more secure than RSA but to my surprise, it is many times faster too.
+With my old key it used to take 2-3 seconds to decrypt a password from my password manager.
+Now, it's practically instant.

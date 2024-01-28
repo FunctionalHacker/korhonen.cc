@@ -1,14 +1,104 @@
 ---
 title: Tämän sivun luominen
 description: Matkani AsciiDocin and Hugon parissa ja miten tähän pisteeseen päädyttiin
-date: 2022-07-19
-draft: true
+date: 2022-09-14
+featured_image: hero.jpg
+menu:
+  sidebar:
+    name: Tämän sivun luominen
+    identifier: creating_this_site
 ---
 :toc:
-= Tämän sivun luominen
+= Tämän sivuston luominen
 Marko Korhonen <marko@korhonen.cc>
-v1.0, 2022-07-19
+v1.0, 2022-09-14
 
 == Johdanto
-Kuten tekniikkaan liittyvissä blogeissa näyttää olevan tapana, ensimmäinen postaus on itse blogin luomisesta.
-Joten tässä ollaan, tämä on blogini ensimmäinen postaus, jossa kerrotaan yksityiskohtaisesti vaiheet, joita tein päästäkseni tänne.
+
+Kuten teknologiaan liittyvissä blogeissa näyttää olevan tapana, ensimmäinen postaus on itse blogin luomisesta.
+Joten tässä olemme, tämä on ensimmäinen kirjoitus blogissani, joka kuvaa vaiheet jotka johtivat tähän pisteeseen.
+
+== Vaihtoehtojen arviointi
+
+Kiinnostuin ensimmäisen kerran staattisista sivugeneraattoreista vuosia sitten, kun ystäväni Fatih rakensi link:https://teaddict.net[oman sivunsa] käyttäen link:https://jekyllrb.com[Jekylliä].
+Se tuntui erittäin virkistävältä tuolloin, koska siihen aikaan kotisivuni olivat WordPressissä, mikä tuntui aina hieman liian ylimitoitetulta ja raskaalta tarpeisiini nähden.
+
+=== Jekyll
+
+Yritin asentaa Jekylliä useita kertoja vuonna 2021, mutta menetin mielenkiinnon monimutkaisen build-prosessin takia, joka vaati kaikenlaisten bundlejen ja  gemien määrittämistä (en koskaan ollut erityisen kiinnostunut Rubysta alun perinkään).
+Minun piti myös debuggata kaikenlaisia ongelmia, jotka johtuivat blogilleni asettamistani vaatimuksista.
+Lisäsin useita liitännäisiä, jotka eivät toimineet kovin hyvin yhdessä.
+Suurin haaste oli se, että halusin käyttää sivun kirjoittamiseen link:https://en.wikipedia.org/wiki/AsciiDoc[AsciiDocia].
+Jekyll tue tätä oletuksena, joten minun piti käyttää link:https://github.com/asciidoctor/jekyll-asciidoc[pluginia].
+Tämä plugin ei näyttänyt toimivan kovin hyvin muiden tarvitsemieni pluginien ja teeman kanssa.
+
+Joka tapauksessa en koskaan päässyt pidemmälle sivuston asentamisessa, joten laitoin projektin taka-alalle.
+Alusta lähtien nykyisen domainini link:https://korhonen.cc[korhonen.cc] perustamisesta joulukuussa 2020 aina kesään 2022 asti domainin juuri näytti vain 404-virheen. Minulla oli paljon itse hostattuja sovelluksia asennettuna vain subdomaineissa.
+
+=== Hugo
+
+Löydettyäni link:https://gohugo.io[Hugon] innostuin heti. Se näytti olevan vastaus kaikkiin ongelmiini.
+Päälimmäiset edut olivat
+
+* Staattinen binääri
+* Suora tuki AsciiDocille
+
+Tämän ansiosta sain perussivuston käyttöön muutamassa minuutissa.
+Ei enää sotkemista bundlejen ja gemien kanssa.
+Minun ei myöskään tarvinnut käyttää mitään plugineita, koska Hugo näytti tukevan oletuksena kaikkea mitä tarvitsin.
+
+== Konfigurointi
+
+Päätin käyttää link:https://github.com/hossainemruz/toha[Hugo Toha] -teemaa sivustollani, koska se näytti tekevän hyvin kaikki asiat, jotka halusin saavuttaa tällä sivustolla
+
+* Verkkosivusto, johon voin lisätä helposti haluamani määrän staattisia sivuja (ei blogikirjoituksia)
+** link:/fi/pgp[Sivu tietoja PGP-avaimestani]
+** link:/fi/korhonen_aur[Sivu tietoja Arch Linux -varastostani]
+* link:/fi[Esittely ja portfolio]
+* link:/fi/posts[Blogi]
+
+Hugon ja teeman konfigurointi kesti aikansa, mutta oli sen arvoista.
+Minulla on nyt kaunis ja monipuolinen sivusto, jota on helppo ylläpitää ja laajentaa.
+
+=== Kommentointijärjestelmä
+
+Halusin lisätä mahdollisuuden käyttäjille kommentoida blogiani. Vaikka yleensä hostaan itse kaiken mahdollisen, tällä kertaa päädyin link:https://giscus.app[Giscus]-palveluun.
+Se käyttää GitHub Discussions alustaa backendinään, joten minun tarvitsi vain luoda repo GitHubissa jossa on tämä ominaisuus päällä ja konfiguroida se Tohaan (valitsemaani Hugon teemaan).
+
+Kävin läpi kaikki Tohan tuetut vaihtoehdot, mutta mikään niistä ei ollut itse hostattavissa.
+En halunnut myöskään toteuttaa tukea uudelle kommenttialustalle itse.
+Tämä voisi olla kuitenkin hauska projekti tulevaisuudessa.
+
+== Build prosessin automatisointi
+
+_Päivitys 2022-12-17: Olen vaihtanut Drone CI:stä Woodpecker CI:hin.
+Woodpecker on avoimen lähdekoodin fork Dronesta, koska Drone siirtyi suljettuun lisenssiin._
+
+_Päivitys 2022-12-17 osa 2: Olen vaihtanut Giteasta Forgejoon.
+Forgejo on avoimen lähdekoodin fork Gitesta, koska Gitea näyttää siirtyvän suljettuun liiketoimintamalliin._
+
+Kun asensin tätä sivustoa, sain tietää link:https://woodpecker-ci.org[Woodpecker CI]:stä, joka näytti sopivan tarpeisiini erinomaisesti.
+Olin kokeillut link:https://www.jenkins.io[Jenksiä] aiemmin, mutta en pitänyt sitä kovin helppokäyttöisenä.
+En myöskään pitänyt siitä, että se kulutti niin paljon resursseja.
+
+Woodpeckerin asentaminen kesti vain noin 30 minuuttia erinomaisen dokumentaation ja sisäänrakennetun link:https://forgejo.org[Forgejo]-tuen ansiosta (jota käytin jo vuosia ennen tätä).
+Pipelinen asentaminen vaati hieman enemmän kokeilua ja virheiden korjausta, mutta loppujen lopuksi se osoittautui melko helpoksi.
+
+Asiaan liittyvät konfiguraatiotiedostot
+
+* link:https://git.korhonen.cc/FunctionalHacker/korhonen.cc/src/branch/main/.woodpecker.yml[Sivuston buildiin käytetty pipeline]
+* link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/forgejo/docker-compose.toml[Forgejo-serverin konfiguraatio]
+* link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/woodpecker/docker-compose.toml[Woodpecker CI:n konfiguraatio]
+
+== Tulevaisuuden suunnitelmat
+
+En aio tulla säännölliseksi bloggaajaksi lähiaikoina.
+Jos löydän jotain, mikä voisi olla arvokasta muille, kirjoitan siitä täällä, jos vaan löydän siihen aikaa ja energiaa.
+
+Nautin paljon Linuxin näpräämisestä ja sovellusten itse hostaamisesta palvelimellani, joten saatan kirjoittaa joitain ohjeita näistä aiheista tulevaisuudessa.
+Olen myös link:https://neovim.io[NeoVim]-käyttäjä, joten saatan kirjoittaa postauksen link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/home/.config/nvim[asetuksistani] jossakin vaiheessa.
+
+Tässä on kuvankaappaus minusta kirjoittamassa tätä blogikirjoitusta. Aika meta 😃
+
+.Kuvankaappaus minusta kirjoittamassa blogikirjoitusta tästä blogista
+image::assets/writing_blogpost_neovim_hugo.png[Minä kirjoittamassa tätä blogikirjoitusta]

@@ -11,50 +11,39 @@ menu:
 :toc:
 = Migrate Misskey root account
 
-I recently migrated my single user Fediverse server from 
-https://misskey-hub.net[Misskey] to https://joinfirefish.org[Firefish] and
-I encountered an issue that I did not find documented elsewhere, so
-I thought I'd write down the solution I found, in case anyone would
-benefit from it and save some time in the future.
+I recently migrated my single user Fediverse server from  https://misskey-hub.net[Misskey] to https://joinfirefish.org[Firefish].
+During the migration I encountered an issue that I did not find documented elsewhere.
+I thought I'd write down the solution I found, in case anyone would benefit from it and save some time in the future.
 
-I decided to migrate to a new domain at the same time, so the easiest way
-was just to create a new server and migrate my account and not fuss about
-migrating the Misskey instance itself.
+I decided to migrate to a new domain at the same time, so the easiest way was just to create a new server and migrate my account and not fuss about migrating the Misskey instance itself.
 
-Being a single user instance, my account was also the "root" account of 
-Misskey. Misskey does not allow migrating the root account, if trying to do
-so, you will just get an error along the lines of "root cannot migrate".
+Being a single user instance, my account was also the "root" account of Misskey.
+Misskey does not allow migrating the root account, if trying to do so, you will just get an error along the lines of "root cannot migrate".
 
 == Solution
 
-I took to the database to find out what I can do bypassing the UI, and lo and
-behold, I found an `isRoot` column in the `user` table. I didn't want to end up
-without a root account on my old instance however, so I went to the Misskey
-control panel and created a new account, simply called 'root'.
+I took to the database to find out what I can do bypassing the UI, and lo and behold, I found an `isRoot` column in the `user` table.
+I didn't want to end up without a root account on my old instance however, so I went to the Misskey control panel and created a new account, simply called "root".
 
-Misskey seems to save all of it's known users to the `user` table, not only
-the actual local accounts. To find the local accounts only, you can use
-the following query
+Misskey seems to save all of it's known users to the `user` table, not only the actual local accounts.
+To find the local accounts only, you can use the following query
 
 [source,sql]
 ----
-include::code/query_users[]
+include::code/query_users.sql[]
 ----
 
-Now you can simply make your new root account's `isRoot` column `true` and
-your actual user account `false`. After that, the migration will work.
+Now you can simply make your new root account's `isRoot` column `true` and your actual user account `false`.
+After that, the migration will work.
 
 [source,sql]
 ----
-include::code/update_users[]
+include::code/update_users.sql[]
 ----
 
-You should probably check that you only modified 2 rows before committing the
-transaction.
+You should probably check that you only modified 2 rows before committing the transaction.
 
-I would imagine that this solution should work for the numerous Misskey forks
-around, but I have not tested it so your results may vary.
+I would imagine that this solution should work for the numerous Misskey forks around, but I have not tested it so your results may vary.
 
-If you found this post useful, make sure to share, tweet, toot, bleep and bloop
-this on your social media service of choice. If you have any issues with this 
-process, you can leave a comment below and I will try to help you out.
+If you found this post useful, make sure to share, tweet, toot, bleep and bloop this on your social media service of choice.
+If you have any issues with this process, you can leave a comment below and I will try to help you out.

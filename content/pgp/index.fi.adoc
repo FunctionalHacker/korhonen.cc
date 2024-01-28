@@ -5,20 +5,17 @@ date: 2022-06-10
 ---
 = PGP
 
-Tykkään PGP:stä ja turvaan sillä kaiken minkä pystyn. Jos haluaisit lähettää
-minulle enkryptoituja tiedostoja, sähköposteja tai muuta vastaavaa, tulit
-oikeaan paikkaan.
+Tykkään PGP:stä ja turvaan sillä kaiken minkä pystyn.
+Jos haluaisit lähettää minulle enkryptoituja tiedostoja, sähköposteja tai muuta vastaavaa, tulit oikeaan paikkaan.
 
 == Keyoxide
 
-Minulla on link:https://https://keyoxide.org/wkd/marko%40korhonen.cc[Keyoxide profiili]
-josta löydät kaikki tarvittavat tiedot avaimestani. Keyoxide toimii myös todisteena
-monista omistamistani tileistä netissä.
+Minulla on link:https://https://keyoxide.org/wkd/marko%40korhonen.cc[Keyoxide profiili] josta löydät kaikki tarvittavat tiedot avaimestani.
+Keyoxide toimii myös todisteena monista omistamistani tileistä netissä.
 
 == WKD
 
-Olen myös asentanut WKD (Web Key Directory) serverin joten tuetut ohjelmat pystyvät noutamaan
-avaimen automaattisesti sähköpostiosoitteeni mailto:marko@korhonen.cc[] perusteella.
+Olen myös asentanut WKD (Web Key Directory) serverin joten tuetut ohjelmat pystyvät noutamaan avaimen automaattisesti sähköpostiosoitteeni mailto:marko@korhonen.cc[] perusteella.
 
 === Nouda avain Sequoia:lla
 
@@ -36,6 +33,11 @@ include::assets/gpg.sh[]
 
 == Päivitys 28.8.2022: uusi avain
 
-Olen päättänyt vaihtaa vanhan RSA-avaimeni ed25519 avaimeksi. Olen link:assets/marko_korhonen_pgp.asc.sig[allekirjoittanut uuden avaimen] link:assets/old_key/marko_korhonen_pgp.asc[vanhalla avaimellani], jos haluat varmistaa kryptograafisesti, että uusi avain kuuluu minulle (jos siis uskoit alunperinkään että vanha avain kuului minulle 😉). Vanhan avaimen peruutussertifikaatti löytyy link:assets/old_key/marko_korhonen_pgp.rev[täältä].
+Olen päättänyt vaihtaa vanhan RSA-avaimeni ed25519 avaimeksi.
+Olen link:assets/marko_korhonen_pgp.asc.sig[allekirjoittanut uuden avaimen] link:assets/old_key/marko_korhonen_pgp.asc[vanhalla avaimellani], jos haluat varmistaa kryptograafisesti, että uusi avain kuuluu minulle (jos siis uskoit alunperinkään että vanha avain kuului minulle 😉).
+Vanhan avaimen peruutussertifikaatti löytyy link:assets/old_key/marko_korhonen_pgp.rev[täältä].
 
-Tähän liittyen, voin vilpittömästi suositella kenelle tahansa vaihtamista ed25519 avaimeen. Se on oletettavasti turvallisempi kuin RSA, mutta yllätyksekseni se on myös monta kertaa nopeampi. Vanhalla avaimellani salasanan salauksen purkaminen salasanamanageristani kesti 2-3 sekuntia. Nyt se on käytännössä välitöntä.
+Tähän liittyen, voin vilpittömästi suositella kenelle tahansa vaihtamista ed25519 avaimeen.
+Se on oletettavasti turvallisempi kuin RSA, mutta yllätyksekseni se on myös monta kertaa nopeampi.
+Vanhalla avaimellani salasanan salauksen purkaminen salasanamanageristani kesti 2-3 sekuntia.
+Nyt se on käytännössä välitöntä.
