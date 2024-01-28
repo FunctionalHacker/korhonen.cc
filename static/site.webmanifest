@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
   "name": "Marko Korhonen",
-  "description": "personal website and portfolio",
+  "description": "Personal website, portfolio and blog of Marko Korhonen",
   "short_name": "Marko Korhonen",
   "start_url": ".",
   "icons": [
@@ -16,7 +16,25 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#E38A93",
-  "background_color": "#1B1D1E",
-  "display": "standalone"
+  "theme_color": "#ff6c00",
+  "background_color": "#111827",
+  "display": "standalone",
+  "id": "korhonen.cc",
+  "shortcuts": [
+    {
+      "name": "Posts",
+      "url": "/posts",
+      "description": "Blog posts by Marko Korhonen"
+    },
+    {
+      "name": "Repo",
+      "url": "/repo",
+      "description": "Repo information page"
+    },
+    {
+      "name": "PGP",
+      "url": "/pgp",
+      "description": "Information about my PGP key"
+    }
+  ]
 }
