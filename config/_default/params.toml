@@ -16,6 +16,12 @@ favicon = "/favicon.png"
 [features.toc]
 enable = true
 
+[features.flags]
+enable = true
+[[flags.flagOverwrites]]
+languageCode = "en"
+countryCode = "us"
+
 [features.darkMode]
 enable = true
 
