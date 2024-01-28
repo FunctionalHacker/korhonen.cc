@@ -5,8 +5,7 @@ date: 2022-03-25
 = Korhonen AUR
 
 Tämä on Arch Linux repo joka koostuu AUR paketeista joita käytän itse.
-Ajattelin jakaa tämän julkisesti netissä jos joku tästä jotain
-hyötyisi.
+Ajattelin jakaa tämän julkisesti netissä jos joku tästä jotain hyötyisi.
 
 == Huomio!
 
@@ -18,22 +17,20 @@ Tarkastaaksesi oman prosessorisi yhteensopivuuden, aja seuraava komento.
 include::assets/check_processor.sh[]
 ----
 
-Jos edeltävä komento ei tulosta mitään, prosessorisi ei valitettavasti
-ole tuettu. Muussa tapauksessa voit jatkaa!
+Jos edeltävä komento ei tulosta mitään, prosessorisi ei valitettavasti ole tuettu.
+Muussa tapauksessa voit jatkaa!
 
 == Tuki
 
-Tällä repolla ei ole minkäänlaista tukea eikä mitään takeita
-ylhäälläoloajasta. Serveri jolla tämä repo pyörii on 4G laajakaistan
-takana, joten nopeudet voivat vaihdella paljonkin sään ja muiden muuttujien vaikutuksesta.
+Tällä repolla ei ole minkäänlaista tukea eikä mitään takeita ylhäälläoloajasta.
+Serveri jolla tämä repo pyörii on 4G laajakaistan takana, joten nopeudet voivat vaihdella paljonkin sään ja muiden muuttujien vaikutuksesta.
 
-Päivitän paketteja satunnaisesti, kuitenkin luultavasti useita kertoja
-viikossa. Jos haluaisit jonkun paketin lisättäväksi repoon, mailto:aur@marko.korhonen.cc?subject=Package%20request%20for%20Korhonen%20AUR[lähetä sähköpostia] niin katsotaan mitä on tehtävissä.
+Päivitän paketteja satunnaisesti, kuitenkin luultavasti useita kertoja viikossa.
+Jos haluaisit jonkun paketin lisättäväksi repoon, mailto:aur@marko.korhonen.cc?subject=Package%20request%20for%20Korhonen%20AUR[lähetä sähköpostia] niin katsotaan mitä on tehtävissä.
 
 == Käyttö
 
-Ensiksi, lisää link:/fi/pgp[PGP avaimeni] pacman
-avainnippuusi ja luota siihen
+Ensiksi, lisää link:/fi/pgp[PGP avaimeni] pacman avainnippuusi ja luota siihen
 
 [source,shell]
 ----

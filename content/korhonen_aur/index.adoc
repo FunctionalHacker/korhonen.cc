@@ -4,33 +4,29 @@ date: 2022-03-25
 ---
 = Korhonen AUR
 
-This is a repository of prebuilt AUR packages that I use myself. I
-decided to share it openly on the internet if somebody else finds it
-useful.
+This is a repository of prebuilt AUR packages that I use myself.
+I decided to share it openly on the internet if somebody else finds it useful.
 
 == Note!
 
-All of the packages in this repository are optimized for x86-v3. To
-check if you CPU is supported, run the following command
+All of the packages in this repository are optimized for x86-v3.
+To check if you CPU is supported, run the following command
 
 [source,shell]
 ----
 include::assets/check_processor.sh[]
 ----
 
-If the command outputs nothing, your CPU is not supported. Otherwise,
-you are good to go!
+If the command outputs nothing, your CPU is not supported.
+Otherwise, you are good to go!
 
 == Support
 
 This repository comes with *no support* and *no guarantee of uptime*.
-The server that this repository lives in is behind 4G broadband, so
-speeds might vary based on weather and other factors.
+The server that this repository lives in is behind 4G broadband, so speeds might vary based on weather and other factors.
 
-I update the packages sporadically, more than likely multiple times a
-week and if I'm not too busy, daily. If you have packages that you would
-like to be included here,
-mailto:aur@marko.korhonen.cc?subject=Package%20request%20for%20Korhonen%20AUR[email
+I update the packages sporadically, more than likely multiple times a week and if I'm not too busy, daily.
+If you have packages that you would like to be included here, mailto:aur@marko.korhonen.cc?subject=Package%20request%20for%20Korhonen%20AUR[email
 me] and I'll see what I can do.
 
 == Usage
