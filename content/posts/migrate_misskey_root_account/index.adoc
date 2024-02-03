@@ -8,7 +8,6 @@ menu:
     name: Migrate Misskey root account
     identifier: migrate_misskey_root_account
 ---
-:toc:
 = Migrate Misskey root account
 
 I recently migrated my single user Fediverse server from  https://misskey-hub.net[Misskey] to https://joinfirefish.org[Firefish].

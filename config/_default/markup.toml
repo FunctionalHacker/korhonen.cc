@@ -1,8 +1,11 @@
 [asciidocExt]
 workingFolderCurrent = true
+extensions = ["asciidoctor-html5s"]
+backend = "html5s"
 
 [asciidocExt.attributes]
 source-highlighter = "rouge"
+toc = true
 
 [tableOfContents]
 startLevel = 1

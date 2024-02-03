@@ -8,7 +8,6 @@ menu:
     name: Tämän sivun luominen
     identifier: creating_this_site
 ---
-:toc:
 = Tämän sivuston luominen
 Marko Korhonen <marko@korhonen.cc>
 v1.0, 2022-09-14
