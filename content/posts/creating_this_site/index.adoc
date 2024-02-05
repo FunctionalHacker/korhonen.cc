@@ -8,7 +8,6 @@ menu:
     name: Creating this site
     identifier: creating_this_site
 ---
-:toc:
 = Creating this site
 Marko Korhonen <marko@korhonen.cc>
 v1.0, 2022-09-14

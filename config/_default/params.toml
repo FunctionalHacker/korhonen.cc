@@ -14,7 +14,7 @@ inverted = "/images/marko.jpeg"
 favicon = "/favicon.png"
 
 [features.toc]
-enable = true
+enable = false
 
 [features.flags]
 enable = true
