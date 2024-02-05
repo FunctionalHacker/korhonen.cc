@@ -5,7 +5,7 @@ backend = "html5s"
 
 [asciidocExt.attributes]
 source-highlighter = "rouge"
-toc = false
+# toc = true
 
 # [tableOfContents]
 # startLevel = 1

@@ -8,6 +8,22 @@ date: 2022-06-10
 Tykkään PGP:stä ja turvaan sillä kaiken minkä pystyn.
 Jos haluaisit lähettää minulle enkryptoituja tiedostoja, sähköposteja tai muuta vastaavaa, tulit oikeaan paikkaan.
 
+== Avaimen hakeminen
+
+=== Sequoia
+
+[source,shell]
+----
+include::assets/sequoia.sh[]
+----
+
+=== GnuPG
+
+[source,shell]
+----
+include::assets/gpg.sh[]
+----
+
 == Keyoxide
 
 Minulla on link:https://https://keyoxide.org/wkd/marko%40korhonen.cc[Keyoxide profiili] josta löydät kaikki tarvittavat tiedot avaimestani.
@@ -16,20 +32,6 @@ Keyoxide toimii myös todisteena monista omistamistani tileistä netissä.
 == WKD
 
 Olen myös asentanut WKD (Web Key Directory) serverin joten tuetut ohjelmat pystyvät noutamaan avaimen automaattisesti sähköpostiosoitteeni mailto:marko@korhonen.cc[] perusteella.
-
-=== Nouda avain Sequoia:lla
-
-[source,shell]
-----
-include::assets/sequoia.sh[]
-----
-
-=== Tuo avain GnuPG:llä
-
-[source,shell]
-----
-include::assets/gpg.sh[]
-----
 
 == Päivitys 28.8.2022: uusi avain
 

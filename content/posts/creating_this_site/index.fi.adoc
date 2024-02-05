@@ -12,8 +12,6 @@ menu:
 Marko Korhonen <marko@korhonen.cc>
 v1.0, 2022-09-14
 
-== Johdanto
-
 Kuten teknologiaan liittyvissä blogeissa näyttää olevan tapana, ensimmäinen postaus on itse blogin luomisesta.
 Joten tässä olemme, tämä on ensimmäinen kirjoitus blogissani, joka kuvaa vaiheet jotka johtivat tähän pisteeseen.
 
