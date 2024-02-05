@@ -26,7 +26,7 @@ include::assets/gpg.sh[]
 
 == Keyoxide
 
-Minulla on link:https://https://keyoxide.org/wkd/marko%40korhonen.cc[Keyoxide profiili] josta löydät kaikki tarvittavat tiedot avaimestani.
+Minulla on link:https://keyoxide.org/wkd/marko%40korhonen.cc[Keyoxide profiili] josta löydät kaikki tarvittavat tiedot avaimestani.
 Keyoxide toimii myös todisteena monista omistamistani tileistä netissä.
 
 == WKD
