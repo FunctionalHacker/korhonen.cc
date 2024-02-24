@@ -1,0 +1,13 @@
+on: [push]
+env:
+  GOROOT: /usr/local/lib/go
+jobs:
+  deploy_site:
+    runs-on: docker
+    container:
+      image: git.korhonen.cc/functionalhacker/hugo-asciidoc-docker-ci:latest
+      volumes:
+        - caddy_korhonen_cc:/korhonen.cc
+    steps:
+      - run: npm install
+      - run: hugo --gc --minify --cleanDestinationDir -d /korhonen.cc
