@@ -9,5 +9,7 @@ jobs:
       volumes:
         - caddy_korhonen_cc:/korhonen.cc
     steps:
+      - name: Checkout
+        uses: https://github.com/actions/checkout@v4
       - run: npm install
       - run: hugo --gc --minify --cleanDestinationDir -d /korhonen.cc
