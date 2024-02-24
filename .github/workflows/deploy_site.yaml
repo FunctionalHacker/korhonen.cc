@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Fix git ownership
+        run: git config --global --add safe.directory /__w/korhonen.cc/korhonen.cc
       - name: Install NPM packages
         run: npm install
       - name: Run Hugo
