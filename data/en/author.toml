@@ -3,6 +3,7 @@ nickname = "Marko"
 greeting = "Hi, I am"
 image = "/images/marko.jpeg"
 summary = [
+  "Testing Forgejo Actions",
   "I am a developer",
   "I love open source",
   "I love Linux",
