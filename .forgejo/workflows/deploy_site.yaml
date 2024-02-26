@@ -16,4 +16,4 @@ jobs:
       - name: Install NPM packages
         run: npm install
       - name: Run Hugo
-        run: hugo --gc --minify --cleanDestinationDir -d /korhonen.cc
+        run: hugo --gc --minify --cleanDestinationDir -d /public
