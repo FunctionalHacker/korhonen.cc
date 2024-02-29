@@ -17,6 +17,11 @@ logo = "images/skills/react.svg"
 summary = "Lots of experience creating modern web applications using React. Also familiar with the Material-UI library."
 
 [[skills]]
+name = "TypeScript"
+logo = "images/skills/typescript.svg"
+summary = "Most of my frontend development these days is done using TypeScript. I have extensive experience on the typing system and know how to make the most effective use of it."
+
+[[skills]]
 name = "Docker"
 logo = "images/skills/docker.svg"
 summary = "Experienced in packaging, distributing and managing Dockerized software."
@@ -30,3 +35,8 @@ summary = "Using Linux as my main operating system for a number of years both at
 name = "Git"
 logo = "images/skills/git.svg"
 summary = "Experienced with git-based development. Especially feature driven development workflow."
+
+[[skills]]
+name = "PostgreSQL"
+logo = "images/skills/postgresql.svg"
+summary = "I have experience in designing and maintaining PostgreSQL databases."

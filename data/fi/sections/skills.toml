@@ -17,6 +17,11 @@ logo = "images/skills/react.svg"
 summary = "Paljon kokemusta modernien web-applikaatioiden toteuttamisesta Reactin avulla. Olen myös käyttänyt paljon Material-UI kirjastoa."
 
 [[skills]]
+name = "TypeScript"
+logo = "images/skills/typescript.svg"
+summary = "Suurin osa nykyisestä frontend-kehityksestäni tapahtuu TypeScriptillä. Minulla on laajasti kokemusta sen tyyppijärjestelmästä ja osaan hyödyntää sitä tehokkaasti."
+
+[[skills]]
 name = "Docker"
 logo = "images/skills/docker.svg"
 summary = "Kokemusta Dockeroitujen sovelluksien paketoinnista, jakamisesta ja hallinnoinnista."
@@ -30,3 +35,8 @@ summary = "Olen käyttänyt Linuxia ainoana käyttöjärjestelmänäni useita vu
 name = "Git"
 logo = "images/skills/git.svg"
 summary = "Kokenut git-pohjaisessa kehitysympäristössä. Erityisesti ominaisuuslähtöinen workflow on tuttu."
+
+[[skills]]
+name = "PostgreSQL"
+logo = "images/skills/postgresql.svg"
+summary = "Minulla on kokemusta PostgreSQL-tietokantojen suunnittelusta ja ylläpidosta."
