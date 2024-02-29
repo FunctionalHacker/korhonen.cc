@@ -12,9 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     container: 
       image: docker://git.korhonen.cc/functionalhacker/hugo-asciidoc-docker-ci:latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,6 +27,9 @@ jobs:
           path: /public
 
   deploy: 
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     name: Deploy site to GitHub Pages
     runs-on: ubuntu-latest
     needs: build
