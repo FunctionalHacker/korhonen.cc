@@ -50,16 +50,25 @@ icon = "fab fa-whatsapp"
 url = "https://wa.me/+358407658800"
 
 [[softSkills]]
+type = "soft-skill-indicator"
 name = "Teamwork"
-percentage = 90
+percentage = 85
 color = "blue"
 
 [[softSkills]]
+type = "soft-skill-indicator"
 name = "Communication"
 percentage = 95
 color = "green"
 
 [[softSkills]]
+type = "soft-skill-indicator"
 name = "Leadership"
 percentage = 80
 color = "orange"
+
+[[softSkills]]
+type = "soft-skill-indicator"
+name = "Planning"
+percentage = 97
+color = "pink"
