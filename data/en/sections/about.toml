@@ -72,9 +72,3 @@ type = "soft-skill-indicator"
 name = "Planning"
 percentage = 90
 color = "pink"
-
-[[badges]]
-type = "soft-skill-indicator"
-name = "Continuous Integration"
-percentage = 30
-color = "red"
