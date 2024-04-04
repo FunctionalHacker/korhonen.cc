@@ -6,6 +6,17 @@
 {{ $newsletterEnabled  := site.Params.footer.newsletter.enable  | default true }}
 {{ $credentialsEnabled := site.Params.footer.credentials.enable | default true }}
 {{ $disclaimerEnabled  := site.Params.footer.disclaimer.enable  | default false }}
+{{ $tohaVersion := "v4" }}
+
+{{- $goModContent := readFile "go.mod" -}}
+{{- $lines := split $goModContent "\n" -}}
+{{- range $lines -}}
+    {{- $line := trim . " " -}}
+    {{- if hasPrefix $line "require github.com/hugo-toha/toha/v4" -}}
+        {{- $parts := split $line " " -}}
+        {{- $tohaVersion = index $parts 2 -}}
+    {{- end -}}
+{{- end -}}
 
 {{/*  Keep backward compatibility for the newsletter function */}}
 {{ if site.Params.newsletter }}
@@ -197,7 +208,7 @@
         <div class="col-md-4">
           <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
             <img src="{{ $themeLogo }}" alt="Toha Theme Logo">
-            Toha
+            Toha theme {{ $tohaVersion }}
           </a>
         </div>
         <div class="col-md-4 text-center">{{ replace $copyrightNotice "{year}" now.Year | markdownify }}</div>
