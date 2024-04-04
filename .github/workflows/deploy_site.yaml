@@ -1,38 +1,49 @@
 name: Build and deploy site
+
 on: [push]
+
 env:
   GOROOT: /usr/local/lib/go
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 jobs:
   build:
     name: Build site
     runs-on: ubuntu-latest
-    container: 
+    container:
       image: docker://git.korhonen.cc/functionalhacker/hugo-asciidoc-docker-ci:latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Fix git ownership
         run: git config --global --add safe.directory /__w/korhonen.cc/korhonen.cc
+
       - name: Install NPM packages
         run: npm install
+
       - name: Run Hugo
         run: hugo --gc --minify -d /public
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: /public
 
-  deploy: 
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  deploy:
     name: Deploy site to GitHub Pages
     runs-on: ubuntu-latest
     needs: build
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Deploy site to GitHub Pages
         id: deployment

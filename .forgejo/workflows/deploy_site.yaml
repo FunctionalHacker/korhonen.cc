@@ -1,7 +1,10 @@
 name: Build and deploy site
+
 on: [push]
+
 env:
   GOROOT: /usr/local/lib/go
+
 jobs:
   deploy_site:
     name: Build and deploy site
@@ -10,10 +13,13 @@ jobs:
       image: git.korhonen.cc/functionalhacker/hugo-asciidoc-docker-ci:latest
       volumes:
         - caddy_korhonen_cc:/public
+
     steps:
       - name: Checkout
         uses: https://github.com/actions/checkout@v4
+
       - name: Install NPM packages
         run: npm install
+
       - name: Run Hugo
         run: hugo --gc --minify --cleanDestinationDir -d /public
