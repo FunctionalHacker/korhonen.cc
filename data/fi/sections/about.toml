@@ -49,6 +49,11 @@ name = "WhatsApp"
 icon = "fab fa-whatsapp"
 url = "https://wa.me/+358407658800"
 
+[[socialLinks]]
+name = "Discord"
+icon = "fab fa-discord"
+url = "https://discord.com/users/263313930535829505"
+
 [[badges]]
 type = "soft-skill-indicator"
 name = "Tiimityö"
