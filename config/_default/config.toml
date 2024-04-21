@@ -1,6 +1,7 @@
 baseURL = 'https://korhonen.cc'
 languageCode = 'en-us'
 title = 'Marko Korhonen'
+timeZone = 'Europe/Helsinki'
 
 enableEmoji = true
 enableGitInfo = true
