@@ -47,5 +47,5 @@ reddit = true
 whatsapp = true
 email = true
 
-[params.features.readingTime]
+[features.readingTime]
 enable = true
