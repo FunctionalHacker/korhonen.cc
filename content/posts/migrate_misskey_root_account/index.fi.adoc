@@ -8,6 +8,7 @@ menu:
   sidebar:
     name: Misskeyn root-tilin migraatio
     identifier: migrate_misskey_root_account
+    weight: 20
 ---
 = Misskeyn root-tilin migraatio
 

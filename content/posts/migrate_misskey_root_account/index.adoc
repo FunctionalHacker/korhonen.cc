@@ -7,6 +7,7 @@ menu:
   sidebar:
     name: Migrate Misskey root account
     identifier: migrate_misskey_root_account
+    weight: 20
 ---
 = Migrate Misskey root account
 
