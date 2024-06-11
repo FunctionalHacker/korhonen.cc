@@ -23,13 +23,13 @@ The lack of prefix delegation means that I have to set RA and NDP to relay mode 
 
 For a few weeks I got by with manually changing the firewall rules every time the prefix changed but that was not sustainable because I have a lot of firewall rules.
 
-== Turning off IPv6 SLAAC privacy extensions
+== Turning off IPv6 SLAAC Privacy Extensions
 
 While I couldn't have a predictable prefix, I can have a predicatble suffix by turning off the IPv6 SLAAC link:https://www.internetsociety.org/resources/deploy360/2014/privacy-extensions-for-ipv6-slaac/[Privacy Extensions] on my server. This way the suffix (the host part) is derived from the MAC address of the device and it will always stay the same.
 
-SLAAC privacy extensions exist for a reason. It increases privacy by generating the host part of the IP randomly and changing the address from time to time. I don't think that is a problem for my server because it is open to the public anyway. The main reason for privacy extensions is so that mobile devices can't be tracked across networks and my server obviously stays in the same network all the time. It's good to acknowledge that this effectively makes your MAC address public, but I don't personally see an obvious risk in that.
+Privacy Extensions exist for a reason. It increases privacy by generating the host part of the IP randomly and changing the address from time to time. I don't think that is a problem for my server because it is open to the public anyway. The main reason for Privacy Extensions is so that mobile devices can't be tracked across networks and my server obviously stays in the same network all the time. It's good to acknowledge that this effectively makes your MAC address public, but I don't personally see an obvious risk in that.
 
-I'm using NetworkManager on my server. You can turn off privacy extensions by locating your interface configuration under `/etc/NetworkManager/system-connections/`. For me it was `Wired connection 1.nmconnection`. Add/change the following lines in the `[ipv6]` section:
+I'm using NetworkManager on my server. You can turn off Privacy Extensions by locating your interface configuration under `/etc/NetworkManager/system-connections/`. On my server it was in the file `Wired connection 1.nmconnection`. Add/change the following lines in the `[ipv6]` section:
 
 [source,config]
 ----

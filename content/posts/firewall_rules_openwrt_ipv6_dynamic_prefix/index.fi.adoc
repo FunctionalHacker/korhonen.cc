@@ -29,7 +29,7 @@ Vaikka en saa ennustettavaa prefixiä, voin saada ennustettavan suffixin poistam
 
 Privacy Extensions on olemassa syystä. Se lisää yksityisyyttä generoimalla osoitteen host osan satunnaisesti ja vaihtamalla osoitetta aika-ajoin. En usko, että tämä on ongelma palvelimellani, koska se on joka tapauksessa avoin julkiverkkoon. Privacy Extensionsin pääasiallinen tarkoitus on se, että mobiililaitteita ei voida seurata verkkojen välillä ja palvelimeni pysyy luonnollisesti aina samassa verkossa. On hyvä tiedostaa, että tämä käytännössä tekee MAC-osoitteestasi julkisen, mutta en henkilökohtaisesti näe siinä ilmeistä riskiä.
 
-Käytän NetworkManageria palvelimellani. Voit poistaa yksityisyyden laajennukset käytöstä etsimällä verkkoyhteytesi asetukset hakemistosta `/etc/NetworkManager/system-connections/`. Omalla palvelimellani se oli `Wired connection 1.nmconnection`. Lisää/muuta seuraavat rivit `[ipv6]`-osioon:
+Käytän NetworkManageria palvelimellani. Voit poistaa yksityisyyden laajennukset käytöstä etsimällä verkkoyhteytesi asetukset hakemistosta `/etc/NetworkManager/system-connections/`. Omalla palvelimellani se oli tiedosto `Wired connection 1.nmconnection`. Lisää/muuta seuraavat rivit `[ipv6]`-osioon:
 
 [source,config]
 ----
