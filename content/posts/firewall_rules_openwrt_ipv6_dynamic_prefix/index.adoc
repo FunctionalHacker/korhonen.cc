@@ -21,7 +21,7 @@ I quickly discovered that my ISP is not doing the IPv6 support "right", they are
 
 The lack of prefix delegation means that I have to set RA and NDP to relay mode in OpenWRT and I have no control over the IPv6 addresses that are assigned to my devices. That in turn means I cannot create static firewall rules based on those addresses because they can change any time.
 
-For a few weeks I got by with manually changing the firewall rules every time the prefix changed but that was not a sustainable because I have a lot of firewall rules.
+For a few weeks I got by with manually changing the firewall rules every time the prefix changed but that was not sustainable because I have a lot of firewall rules.
 
 == Turning off IPv6 SLAAC privacy extensions
 
