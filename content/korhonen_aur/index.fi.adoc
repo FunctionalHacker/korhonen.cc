@@ -8,22 +8,9 @@ featured_image: hero.jpg
 Tämä on Arch Linux repo joka koostuu AUR paketeista joita käytän itse.
 Ajattelin jakaa tämän julkisesti netissä jos joku tästä jotain hyötyisi.
 
-== Huomio!
-
-Kaikki tämän repon paketit on optimoitu x86-v3 arkkitehtuurille.
-Tarkastaaksesi oman prosessorisi yhteensopivuuden, aja seuraava komento.
-
-[source,shell]
-----
-include::assets/check_processor.sh[]
-----
-
-Jos edeltävä komento ei tulosta mitään, prosessorisi ei valitettavasti ole tuettu.
-Muussa tapauksessa voit jatkaa!
-
 == Tuki
 
-Tällä repolla ei ole minkäänlaista tukea eikä mitään takeita ylhäälläoloajasta.
+Tällä repolla ei ole *minkäänlaista* tukea eikä *mitään takeita ylhäälläoloajasta*.
 Serveri jolla tämä repo pyörii on 4G laajakaistan takana, joten nopeudet voivat vaihdella paljonkin sään ja muiden muuttujien vaikutuksesta.
 
 Päivitän paketteja satunnaisesti, kuitenkin luultavasti useita kertoja viikossa.

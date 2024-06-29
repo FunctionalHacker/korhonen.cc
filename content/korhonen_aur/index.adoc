@@ -8,19 +8,6 @@ featured_image: hero.jpg
 This is a repository of prebuilt AUR packages that I use myself.
 I decided to share it openly on the internet if somebody else finds it useful.
 
-== Note!
-
-All of the packages in this repository are optimized for x86-v3.
-To check if you CPU is supported, run the following command
-
-[source,shell]
-----
-include::assets/check_processor.sh[]
-----
-
-If the command outputs nothing, your CPU is not supported.
-Otherwise, you are good to go!
-
 == Support
 
 This repository comes with *no support* and *no guarantee of uptime*.
