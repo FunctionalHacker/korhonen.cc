@@ -1,7 +1,7 @@
 [asciidocExt]
 workingFolderCurrent = true
-extensions = ["asciidoctor-html5s"]
-backend = "html5s"
+#extensions = ["asciidoctor-html5s"]
+backend = "html5"
 
 [asciidocExt.attributes]
 source-highlighter = "rouge"
