@@ -8,3 +8,8 @@ pre:has(code) {
 table {
   margin-bottom: 1rem;
 }
+
+// Fix code block size with asciidoctor
+.content {
+  min-height: unset !important;
+}
