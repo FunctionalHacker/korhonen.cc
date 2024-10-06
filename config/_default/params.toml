@@ -23,9 +23,7 @@ languageCode = "en"
 countryCode = "us"
 
 [features.theme]
-light = true
-dark = true
-defaultTheme = "system"
+enable = true
 
 [features.copyCodeButton]
 enable = true
