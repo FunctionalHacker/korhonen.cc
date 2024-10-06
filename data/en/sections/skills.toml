@@ -4,6 +4,7 @@ id = "skills"
 enable = true
 weight = 2
 showOnNavbar = true
+filter = true
 template = "sections/skills.html"
 
 [[buttons]]
