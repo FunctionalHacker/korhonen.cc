@@ -6,37 +6,64 @@ weight = 2
 showOnNavbar = true
 template = "sections/skills.html"
 
+[[buttons]]
+name = "All"
+filter = "all"
+
+[[buttons]]
+name = "Kieli"
+filter = "language"
+
+[[buttons]]
+name = "Työkalu"
+filter = "tool"
+
+[[buttons]]
+name = "Säiliöinti"
+filter = "container"
+
+[[buttons]]
+name = "Tietokanta"
+filter = "database"
+
 [[skills]]
 name = "Java"
 logo = "images/skills/java.svg"
 summary = "Pääasiallinen \"back-end\" -ohjelmointikieleni. Hallussa on myös frameworkejä ja kirjastoja kuten Hibernate, JPA ja Spring."
+categories = ["language"]
 
 [[skills]]
 name = "React.js"
 logo = "images/skills/react.svg"
 summary = "Paljon kokemusta modernien web-applikaatioiden toteuttamisesta Reactin avulla. Olen myös käyttänyt paljon Material-UI kirjastoa."
+categories = ["language"]
 
 [[skills]]
 name = "TypeScript"
 logo = "images/skills/typescript.svg"
 summary = "Suurin osa nykyisestä frontend-kehityksestäni tapahtuu TypeScriptillä. Minulla on laajasti kokemusta sen tyyppijärjestelmästä ja osaan hyödyntää sitä tehokkaasti."
+categories = ["language"]
 
 [[skills]]
 name = "Docker"
 logo = "images/skills/docker.svg"
 summary = "Kokemusta Dockeroitujen sovelluksien paketoinnista, jakamisesta ja hallinnoinnista."
+categories = ["container", "tool"]
 
 [[skills]]
 name = "Linux"
 logo = "images/skills/linux.svg"
 summary = "Olen käyttänyt Linuxia ainoana käyttöjärjestelmänäni useita vuosia niin töissä kuin vapaa-ajallakin. Osaan myös kirjoittaa bash/shell-skriptejä."
+categories = ["tool"]
 
 [[skills]]
 name = "Git"
 logo = "images/skills/git.svg"
 summary = "Kokenut git-pohjaisessa kehitysympäristössä. Erityisesti ominaisuuslähtöinen workflow on tuttu."
+categories = ["tool"]
 
 [[skills]]
 name = "PostgreSQL"
 logo = "images/skills/postgresql.svg"
 summary = "Minulla on kokemusta PostgreSQL-tietokantojen suunnittelusta ja ylläpidosta."
+categories = ["database"]

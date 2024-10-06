@@ -6,37 +6,64 @@ weight = 2
 showOnNavbar = true
 template = "sections/skills.html"
 
+[[buttons]]
+name = "All"
+filter = "all"
+
+[[buttons]]
+name = "Language"
+filter = "language"
+
+[[buttons]]
+name = "Tool"
+filter = "tool"
+
+[[buttons]]
+name = "Container"
+filter = "container"
+
+[[buttons]]
+name = "Database"
+filter = "database"
+
 [[skills]]
 name = "Java"
 logo = "images/skills/java.svg"
 summary = "My main \"back-end\" programming language. Proficient in frameworks and libraries such as Hibernate, JPA and Spring."
+categories = ["language"]
 
 [[skills]]
 name = "React.js"
 logo = "images/skills/react.svg"
 summary = "Lots of experience creating modern web applications using React. Also familiar with the Material-UI library."
+categories = ["language"]
 
 [[skills]]
 name = "TypeScript"
 logo = "images/skills/typescript.svg"
 summary = "Most of my frontend development these days is done using TypeScript. I have extensive experience on the typing system and know how to make the most effective use of it."
+categories = ["language"]
 
 [[skills]]
 name = "Docker"
 logo = "images/skills/docker.svg"
 summary = "Experienced in packaging, distributing and managing Dockerized software."
+categories = ["container", "tool"]
 
 [[skills]]
 name = "Linux"
 logo = "images/skills/linux.svg"
 summary = "Using Linux as my main operating system for a number of years both at work and on my free time. Capable of writing bash/shell scripts."
+categories = ["tool"]
 
 [[skills]]
 name = "Git"
 logo = "images/skills/git.svg"
 summary = "Experienced with git-based development. Especially feature driven development workflow."
+categories = ["tool"]
 
 [[skills]]
 name = "PostgreSQL"
 logo = "images/skills/postgresql.svg"
 summary = "I have experience in designing and maintaining PostgreSQL databases."
+categories = ["database"]
