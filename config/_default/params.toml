@@ -22,7 +22,12 @@ enable = true
 languageCode = "en"
 countryCode = "us"
 
-[features.darkMode]
+[features.theme]
+light = true
+dark = true
+defaultTheme = "system"
+
+[features.copyCodeButton]
 enable = true
 
 [features.comment]
