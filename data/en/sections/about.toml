@@ -12,7 +12,7 @@ template = "sections/about.html"
 
 [company]
 name = "Rossum Oy"
-url = "https://rossum.fi"
+url = "https://rossum.fi/etusivu_rossum-copy_en/"
 
 [[socialLinks]]
 name = "Email"
