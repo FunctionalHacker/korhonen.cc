@@ -16,6 +16,7 @@ overview = "Rossum Oy on vakiintunut suomalainen ohjelmistoyritys."
 [[experiences.positions]]
 designation = "Ohjelmistokehittäjä"
 start = "Touko 2020"
+end = "Tammi 2025"
 responsibilities = [
   "Full-stack ohjelmistokehitys (Java, React.js)",
   "Linux serverien ja infrastruktuurin ylläpitoa",

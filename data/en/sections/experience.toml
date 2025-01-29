@@ -16,6 +16,7 @@ overview = "Rossum is a well-established Finnish software company"
 [[experiences.positions]]
 designation = "Software Developer"
 start = "May 2020"
+end = "January 2025"
 responsibilities = [
   "Full-stack software development (Java, React.js)",
   "Linux server and infrastructure maintenance",
