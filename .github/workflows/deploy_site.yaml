@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Add extra dependencies
-        run: apk add ruby-rouge
+        run: apk add ruby-rouge tar
 
       - name: Install NPM packages
         run: npm install
