@@ -20,8 +20,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          path: /src
 
       - name: Add extra dependencies
         run: apk add ruby-rouge
