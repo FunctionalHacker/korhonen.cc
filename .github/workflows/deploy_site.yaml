@@ -15,7 +15,7 @@ jobs:
     name: Build site
     runs-on: ubuntu-latest
     container:
-      image: docker://registry.gitlab.com/pages/hugo:latest
+      image: docker://hugomods/hugo:ci-non-root
 
     steps:
       - name: Checkout
