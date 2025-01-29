@@ -15,7 +15,7 @@ jobs:
     name: Build site
     runs-on: ubuntu-latest
     container:
-      image: docker://hugomods/hugo:ci-non-root
+      image: docker://hugomods/hugo:ci
 
     steps:
       - name: Checkout
