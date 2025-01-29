@@ -24,6 +24,9 @@ jobs:
       - name: Fix git ownership
         run: git config --global --add safe.directory /__w/korhonen.cc/korhonen.cc
 
+      - name: Add extra dependencies
+        run: apk add ruby-rouge
+
       - name: Install NPM packages
         run: npm install
 
