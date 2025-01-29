@@ -9,11 +9,11 @@ url = "/fi/pgp"
 hideFromNavbar = false
 showOnFooter = true
 
-[[customMenus]]
-name = "Repo"
-url = "/fi/korhonen_aur"
-hideFromNavbar = false
-showOnFooter = true
+#[[customMenus]]
+#name = "Repo"
+#url = "/fi/korhonen_aur"
+#hideFromNavbar = false
+#showOnFooter = true
 
 [[customMenus]]
 name = "Nettisivun lähdekoodi"

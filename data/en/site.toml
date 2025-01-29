@@ -9,11 +9,11 @@ url = "/pgp"
 hideFromNavbar = false
 showOnFooter = true
 
-[[customMenus]]
-name = "Repo"
-url = "/korhonen_aur"
-hideFromNavbar = false
-showOnFooter = true
+#[[customMenus]]
+#name = "Repo"
+#url = "/korhonen_aur"
+#hideFromNavbar = false
+#showOnFooter = true
 
 [[customMenus]]
 name = "Website source code"
