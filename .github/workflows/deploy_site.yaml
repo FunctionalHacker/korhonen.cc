@@ -29,6 +29,9 @@ jobs:
       - name: Install NPM packages
         run: npm install
 
+      - name: Fix git ownership
+        run: chown -R $(id -u):$(id -g) $PWD
+
       - name: Run Hugo
         run: hugo --gc --minify -d /public
 
