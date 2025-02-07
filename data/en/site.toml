@@ -9,11 +9,11 @@ url = "/pgp"
 hideFromNavbar = false
 showOnFooter = true
 
-#[[customMenus]]
-#name = "Repo"
-#url = "/korhonen_aur"
-#hideFromNavbar = false
-#showOnFooter = true
+[[customMenus]]
+name = "Repo"
+url = "/korhonen_aur"
+hideFromNavbar = true
+showOnFooter = false
 
 [[customMenus]]
 name = "Website source code"
@@ -21,8 +21,8 @@ url = "https://github.com/FunctionalHacker/korhonen.cc"
 hideFromNavbar = true
 showOnFooter = true
 
-# [[customMenus]]
-# name = "Website analytics"
-# url = "https://umami.korhonen.cc/share/GRslDxJt/korhonen.cc"
-# hideFromNavbar = true
-# showOnFooter = true
+[[customMenus]]
+name = "Website analytics"
+url = "https://umami.korhonen.cc/share/GRslDxJt/korhonen.cc"
+hideFromNavbar = true
+showOnFooter = false
