@@ -17,7 +17,7 @@ showOnFooter = true
 
 [[customMenus]]
 name = "Website source code"
-url = "https://codeberg.org/FunctionalHacker/korhonen.cc"
+url = "https://github.com/FunctionalHacker/korhonen.cc"
 hideFromNavbar = true
 showOnFooter = true
 
