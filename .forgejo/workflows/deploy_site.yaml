@@ -10,7 +10,7 @@ jobs:
     name: Build and deploy site
     runs-on: docker
     container:
-      image: docker://hugomods/hugo:ci
+      image: hugomods/hugo:ci
       volumes:
         - caddy_korhonen_cc:/public
 
