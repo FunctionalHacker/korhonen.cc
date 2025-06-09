@@ -27,6 +27,11 @@
       "description": "Blog posts by Marko Korhonen"
     },
     {
+      "name": "Repo",
+      "url": "/repo",
+      "description": "Repo information page"
+    },
+    {
       "name": "PGP",
       "url": "/pgp",
       "description": "Information about my PGP key"

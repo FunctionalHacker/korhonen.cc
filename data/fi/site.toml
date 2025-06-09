@@ -12,8 +12,8 @@ showOnFooter = true
 [[customMenus]]
 name = "Repo"
 url = "/fi/korhonen_aur"
-hideFromNavbar = true
-showOnFooter = false
+hideFromNavbar = false
+showOnFooter = true
 
 [[customMenus]]
 name = "Nettisivun lähdekoodi"
