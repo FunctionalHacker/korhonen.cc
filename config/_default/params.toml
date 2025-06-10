@@ -53,9 +53,9 @@ email = true
 [features.readingTime]
 enable = true
 
-# [features.analytics]
-# enable = true
-# [features.analytics.services.umami]
-# scheme = "https"
-# instance = "umami.korhonen.cc"
-# id = "d79111e4-25ee-43d8-be20-5cd3a845a8cf"
+[features.analytics]
+enable = true
+[features.analytics.services.umami]
+scheme = "https"
+instance = "umami.korhonen.cc"
+id = "d79111e4-25ee-43d8-be20-5cd3a845a8cf"
