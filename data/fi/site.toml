@@ -25,4 +25,4 @@ showOnFooter = true
 name = "Nettisivun analytiikka"
 url = "https://umami.korhonen.cc/share/GRslDxJt/korhonen.cc"
 hideFromNavbar = true
-showOnFooter = false
+showOnFooter = true
