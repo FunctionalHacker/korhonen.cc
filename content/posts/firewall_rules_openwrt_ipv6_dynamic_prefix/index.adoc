@@ -1,5 +1,5 @@
 ---
-title: OpenWRT firewall rules with with dynamic IPv6 prefix
+title: OpenWRT firewall rules with dynamic IPv6 prefix
 description: Easier firewall rules in OpenWRT when you have a dynamic IPv6 prefix.
 date: 2024-06-10
 featured_image: hero.jpg
