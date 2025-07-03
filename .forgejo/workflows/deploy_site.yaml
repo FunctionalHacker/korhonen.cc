@@ -21,5 +21,8 @@ jobs:
       - name: Install NPM packages
         run: npm install
 
+      - name: Install Rouge
+        run: apk add ruby-rouge
+
       - name: Run Hugo
         run: hugo --gc --minify --cleanDestinationDir -d /public
