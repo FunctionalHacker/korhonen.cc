@@ -10,9 +10,9 @@ weight = 1
 showOnNavbar = true
 template = "sections/about.html"
 
-#[company]
-#name = "Rossum Oy"
-#url = "https://rossum.fi"
+[company]
+name = "NetForecast"
+url = "https://www.netforecast.com/"
 
 [[socialLinks]]
 name = "Sähköposti"

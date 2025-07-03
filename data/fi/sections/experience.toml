@@ -8,6 +8,21 @@ showOnNavbar = true
 [[experiences]]
 
 [experiences.company]
+name = "NetForecast"
+url = "https://www.netforecast.com/"
+location = "Charlottesville, Virginia, Yhdysvallat"
+overview = "NetForecast mittaa ja arvioi verkon päästä päähän -suorituskykyä riippumattomasti"
+
+[[experiences.positions]]
+designation = "Ohjelmistokehittäjä"
+start = "Huhti 2025"
+responsibilities = [
+    "Full-stack-ohjelmistokehitys (JavaScript, Python)"
+]
+
+[[experiences]]
+
+[experiences.company]
 name = "Rossum Oy"
 url = "https://rossum.fi/etusivu"
 location = "Lahti"
