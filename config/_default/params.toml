@@ -38,7 +38,12 @@ categoryID = "DIC_kwDOHfIUe84CPnO-"
 theme = "preferred_color_scheme"
 
 [features.support]
-enabled = false
+enable = true
+[features.support.services.kofi]
+user = "functionalhacker"
+text = "Buy coffee"
+textColor = "#f9fafc"
+backgroundColor = "#f66400"
 
 [features.blog]
 enable = true
