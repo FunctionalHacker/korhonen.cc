@@ -1,6 +1,6 @@
 designation = "Software developer"
 resume = "https://codeberg.org/FunctionalHacker/cv/releases/download/v1.2.0/marko_korhonen_cv_en.pdf"
-summary = "I am a Finnish software developer currently based in the USA with $workingExperienceYears years of experience in software development. I specialize in Java and React.js and have a strong passion for open-source projects, Linux, and server management."
+summary = "I am a Finnish Software Engineer currently based in the USA with $workingExperienceYears years of experience in software development. I specialize in Java and React.js and have a strong passion for open-source projects, Linux, and server management."
 
 [section]
 name = "About"
