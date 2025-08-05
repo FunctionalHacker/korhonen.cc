@@ -43,11 +43,13 @@
     {{ $customMenus = (index site.Data site.Language.Lang).site.customMenus }}
   {{ end }}
 
-  {{ $copyrightNotice := now.Format "2006" | printf "© %s Copyright."}}
+  {{ $copyrightNotice := now.Format "2006" | printf "© %s Copyright." }}
+  {{ $copyrightUrl := "/" }}
   {{ if (index site.Data site.Language.Lang).site }}
     {{ $siteConfig := (index site.Data site.Language.Lang).site }}
     {{ if $siteConfig.copyright }}
-      {{ $copyrightNotice = $siteConfig.copyright }}
+      {{ $copyrightNotice = $siteConfig.copyright.text }}
+      {{ $copyrightUrl = $siteConfig.copyright.url }}
     {{ end }}
   {{ end }}
 
@@ -205,14 +207,16 @@
     <hr />
     <div class="container">
       <div class="row text-start">
-        <div class="col-md-4">
+        <div class="col-md-3">
           <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
             <img src="{{ $themeLogo }}" alt="Toha Theme Logo">
             Toha theme {{ $tohaVersion }}
           </a>
         </div>
-        <div class="col-md-4 text-center">{{ replace $copyrightNotice "{year}" now.Year | markdownify }}</div>
-        <div class="col-md-4 text-end">
+        <a class="col-md-5 text-center" href="{{ $copyrightUrl }}">
+            {{ replace $copyrightNotice "{currentYear}" now.Year | markdownify }}
+        </a>
+        <div class="col-md-3 text-end">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">{{ i18n "hugoAttributionText" }}
           <img
             src="{{ $hugoLogo }}"

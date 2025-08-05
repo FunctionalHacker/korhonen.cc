@@ -1,4 +1,6 @@
-copyright = "© 2022–{year} Marko Korhonen"
+[copyright]
+text = "© 2022–{currentYear} Marko Korhonen"
+url = "/legal/license"
 
 # Meta description for search engines and such
 description = "Portfolio of Marko Korhonen"
@@ -24,11 +26,5 @@ showOnFooter = true
 [[customMenus]]
 name = "Analytics"
 url = "https://umami.korhonen.cc/share/GRslDxJt/korhonen.cc"
-hideFromNavbar = true
-showOnFooter = true
-
-[[customMenus]]
-name = "License"
-url = "/legal/license"
 hideFromNavbar = true
 showOnFooter = true
