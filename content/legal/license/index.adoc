@@ -1,1 +1,8 @@
-../../../LICENSE.adoc
+---
+title: The MIT License (MIT)
+description: The license of this website
+date: 2025-08-04
+featured_image: hero.jpg
+---
+
+include::../../../LICENSE.adoc
