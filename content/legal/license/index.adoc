@@ -5,4 +5,4 @@ date: 2025-08-04
 featured_image: hero.jpg
 ---
 
-include::../../../LICENSE.adoc
+include::../../../LICENSE.adoc[]
