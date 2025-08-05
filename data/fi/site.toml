@@ -1,4 +1,4 @@
-copyright = "Copyright © 2022 - {year} Marko Korhonen"
+copyright = "© 2022–{year} Marko Korhonen"
 
 # Meta description for search engines and such
 description = "Marko Korhosen portfolio"
@@ -16,13 +16,19 @@ hideFromNavbar = false
 showOnFooter = true
 
 [[customMenus]]
-name = "Nettisivun lähdekoodi"
+name = "Lähdekoodi"
 url = "https://git.korhonen.cc/FunctionalHacker/korhonen.cc"
 hideFromNavbar = true
 showOnFooter = true
 
 [[customMenus]]
-name = "Nettisivun analytiikka"
+name = "Analytiikka"
 url = "https://umami.korhonen.cc/share/GRslDxJt/korhonen.cc"
+hideFromNavbar = true
+showOnFooter = true
+
+[[customMenus]]
+name = "Lisenssi"
+url = "/fi/legal/license"
 hideFromNavbar = true
 showOnFooter = true

@@ -1,0 +1,29 @@
+---
+title: MIT-lisenssi (MIT)
+description: Tämän verkkosivuston lisenssi
+date: 2025-08-04
+featured_image: hero.jpg
+---
+= MIT-lisenssi (MIT)
+
+© 2022–{localyear} Marko Korhonen
+
+_Tämä on epävirallinen suomennos MIT-lisenssistä. Se ei korvaa alkuperäistä englanninkielistä lisenssiä. Sitova lisenssi on englanninkielinen lisenssi._
+
+== Lupa
+
+Lupa myönnetään täten maksutta kaikille, jotka saavat kopion tästä ohjelmistosta ja siihen liittyvistä dokumentaatiotiedostoista ("Ohjelmisto"),
+käyttää Ohjelmistoa rajoituksetta, mukaan lukien rajoituksetta oikeudet käyttää, kopioida, muokata, yhdistää, julkaista, levittää, alilisensoida ja/tai
+myydä kopioita Ohjelmistosta, sekä sallia henkilöiden, joille Ohjelmisto toimitetaan, tehdä niin, seuraavin ehdoin:
+
+== Ehdot
+
+Yllä oleva tekijänoikeusilmoitus ja tämä lupailmoitus on sisällytettävä kaikkiin Ohjelmiston kopioihin tai merkittäviin osiin siitä.
+
+== Vastuuvapauslauseke
+
+OHJELMISTO TOIMITETAAN "SELLAISENAAN", ILMAN MITÄÄN TAKUITA, ILMAISTUJA TAI OLETETTUJA, MUKAAN LUKIEN MUTTA EI RAJOITTUEN TAKUIHIN
+KAUPALLISESTA HYÖDYNNETTÄVYYDESTÄ, SOVELTUVUUDESTA TIETTYYN TARKOITUKSEEN TAI OIKEUKSIEN LOUKKAAMATTOMUUDESTA.
+MISSÄÄN TAPAUKSESSA TEKIJÄT TAI TEKIJÄNOIKEUDEN HALTIJAT EIVÄT OLE VASTUUSSA MISTÄÄN VAATEISTA, VAHINGOISTA TAI MUISTA VELVOLLISUUKSISTA,
+RIIPPUMATTA SIITÄ, JOHTUVATKO NE SOPIMUKSESTA, RIKKOMUKSESTA TAI MUUSTA,
+JOKA SYNTYY OHJELMISTON TAI SEN KÄYTÖN TAI MUIDEN TOIMIEN YHTEYDESSÄ.
