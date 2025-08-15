@@ -23,8 +23,8 @@
   {{ with .Site.Params.logo.favicon }}<icon>{{ . | absURL }}</icon>{{ end }}
   {{ with .Site.Params.logo.main }}<logo>{{ . | absURL }}</logo>{{ end }}
   {{ with .Site.Copyright }}<rights>{{ replace . "{year}" now.Year }}</rights>{{ end }}
-  {{ with .Site.Params.Description }}<subtitle>{{ .  }}</subtitle>{{ end }}
-  <title>{{ .Site.Title }}</title>
+  <title>{{ .Site.Params.atom.title }}</title>
+  {{ with .Site.Params.atom.subtitle }}<subtitle>{{ .  }}</subtitle>{{ end }}
   <updated>{{ now.Format .Site.Params.atom.dateFormat.feed | safeHTML }}</updated>
   {{ with .Site.Params.logo.icon96 }}<webfeeds:icon>{{ . | absURL }}</webfeeds:icon>{{ end }}
   {{ range $pages }}

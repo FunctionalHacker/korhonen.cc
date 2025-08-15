@@ -66,6 +66,8 @@ instance = "umami.korhonen.cc"
 id = "d79111e4-25ee-43d8-be20-5cd3a845a8cf"
 
 [atom]
+title="Korhonen.cc Blog"
+subtitle="This blog explores open-source tools, self-hosted services, and the daily life of a developer."
 uuid = "341a0375-31e6-47e9-a19f-f8e9a0436977"
 mainSections = ["posts"]
 [atom.dateFormat]

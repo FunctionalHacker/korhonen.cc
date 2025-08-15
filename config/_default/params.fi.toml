@@ -2,4 +2,6 @@
 text = "Osta kahvi"
 
 [atom]
+title="Korhonen.cc Blogi"
+subtitle="Blogissa käsitellään avoimen lähdekoodin työkaluja, itsehostattuja palveluja ja kehittäjän arkea."
 uuid = "3d1731e8-0321-4d17-b23c-7fabe585a119"
