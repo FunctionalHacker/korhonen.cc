@@ -6,7 +6,7 @@ source = "static"
 target = "static"
 
 [[mounts]]
-source = "./node_modules/flag-icon-css/flags"
+source = "./node_modules/flag-icons/flags"
 target = "static/flags"
 
 [[mounts]]
