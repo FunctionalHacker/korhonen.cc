@@ -20,19 +20,19 @@ icon = "fas fa-envelope"
 url = "marko@korhonen.cc"
 
 [[socialLinks]]
-name = "GitHub"
-icon = "fab fa-github"
-url = "https://www.github.com/FunctionalHacker"
-
-[[socialLinks]]
-name = "LinkedIn"
-icon = "fab fa-linkedin"
-url = "https://www.linkedin.com/in/functionalhacker"
-
-[[socialLinks]]
 name = "Fediverse"
 icon = "fab fa-mastodon"
 url = "https://coretalk.space/@FunctionalHacker"
+
+[[socialLinks]]
+name = "Atom feed"
+icon = "fa-solid fa-rss"
+url = "/atom.xml"
+
+[[socialLinks]]
+name = "GitHub"
+icon = "fab fa-github"
+url = "https://www.github.com/FunctionalHacker"
 
 [[socialLinks]]
 name = "Telegram"
@@ -40,9 +40,9 @@ icon = "fab fa-telegram"
 url = "https://t.me/FunctionalHacker"
 
 [[socialLinks]]
-name = "Atom feed"
-icon = "fa-solid fa-rss"
-url = "/atom.xml"
+name = "LinkedIn"
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/in/functionalhacker"
 
 [[badges]]
 type = "soft-skill-indicator"
