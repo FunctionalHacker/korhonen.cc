@@ -39,6 +39,11 @@ name = "Telegram"
 icon = "fab fa-telegram"
 url = "https://t.me/FunctionalHacker"
 
+[[socialLinks]]
+name = "Atom feed"
+icon = "fa-solid fa-rss"
+url = "/atom.xml"
+
 [[badges]]
 type = "soft-skill-indicator"
 name = "Teamwork"

@@ -28,3 +28,9 @@ name = "Analytics"
 url = "https://umami.korhonen.cc/share/GRslDxJt/korhonen.cc"
 hideFromNavbar = true
 showOnFooter = true
+
+[[customMenus]]
+name = "Atom feed"
+url = "/atom.xml"
+hideFromNavbar = true
+showOnFooter = true
