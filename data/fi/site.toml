@@ -31,6 +31,6 @@ showOnFooter = true
 
 [[customMenus]]
 name = "Atom-syöte"
-url = "/atom.xml"
+url = "/fi/atom.xml"
 hideFromNavbar = true
 showOnFooter = true

@@ -27,7 +27,7 @@ url = "https://coretalk.space/@FunctionalHacker"
 [[socialLinks]]
 name = "Atom-syöte"
 icon = "fa-solid fa-rss"
-url = "/atom.xml"
+url = "/fi/atom.xml"
 
 [[socialLinks]]
 name = "GitHub"
