@@ -1,5 +1,5 @@
 designation = "Ohjelmistokehittäjä"
-resume = "https://codeberg.org/FunctionalHacker/cv/releases/download/v1.2.0/marko_korhonen_cv_fi.pdf"
+resume = "https://git.korhonen.cc/FunctionalHacker/cv/releases/download/v1.3.0/marko_korhonen_cv_fi.pdf"
 summary = "Olen suomalainen ohjelmistoinsinööri, joka asuu tällä hetkellä Yhdysvalloissa ja minulla on $workingExperienceYears vuoden kokemus ohjelmistokehityksestä. Erikoistun Javaan ja React.js:ään, ja minulla on vahva intohimo avoimen lähdekoodin projekteihin, Linuxiin ja palvelinten hallintaan."
 
 [section]
