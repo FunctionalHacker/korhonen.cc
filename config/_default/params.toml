@@ -1,12 +1,12 @@
-[author]
-name = "Marko Korhonen"
-
 background = "/images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"
 description = "Personal website, portfolio and blog of Marko Korhonen"
 
 gitRepo = "https://git.korhonen.cc/FunctionalHacker/korhonen.cc"
 gitBranch = "main"
 gitForge = "gitea"
+
+[author]
+name = "Marko Korhonen"
 
 [newsletter]
 enable = false
