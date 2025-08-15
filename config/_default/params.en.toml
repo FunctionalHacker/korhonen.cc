@@ -64,3 +64,10 @@ enable = true
 scheme = "https"
 instance = "umami.korhonen.cc"
 id = "d79111e4-25ee-43d8-be20-5cd3a845a8cf"
+
+[atom]
+uuid = "341a0375-31e6-47e9-a19f-f8e9a0436977"
+mainSections = ["posts"]
+[atom.dateFormat]
+feed = "2006-01-02T15:04:05-07:00"
+tag = "2006"

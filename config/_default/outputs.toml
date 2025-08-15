@@ -1,1 +1,5 @@
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "ATOM", "JSON"]
+page = ["HTML"]
+section = ["HTML"]
+taxonomy = ["HTML"]
+term = ["HTML"]
