@@ -20,11 +20,6 @@ icon = "fas fa-envelope"
 url = "marko@korhonen.cc"
 
 [[socialLinks]]
-name = "Puhelin"
-icon = "fas fa-phone"
-url = "+358407658800"
-
-[[socialLinks]]
 name = "GitHub"
 icon = "fab fa-github"
 url = "https://www.github.com/FunctionalHacker"
@@ -43,16 +38,6 @@ url = "https://coretalk.space/@FunctionalHacker"
 name = "Telegram"
 icon = "fab fa-telegram"
 url = "https://t.me/FunctionalHacker"
-
-[[socialLinks]]
-name = "WhatsApp"
-icon = "fab fa-whatsapp"
-url = "https://wa.me/+358407658800"
-
-[[socialLinks]]
-name = "Discord"
-icon = "fab fa-discord"
-url = "https://discord.com/users/263313930535829505"
 
 [[badges]]
 type = "soft-skill-indicator"
