@@ -69,24 +69,22 @@ Tämä voisi olla kuitenkin hauska projekti tulevaisuudessa.
 
 == Build prosessin automatisointi
 
-_Päivitys 2022-12-17: Olen vaihtanut Drone CI:stä Woodpecker CI:hin.
+_Päivitys 2022-12-17: Olen vaihtanut Drone CI:stä Woodpecker CI:hin.  
 Woodpecker on avoimen lähdekoodin fork Dronesta, koska Drone siirtyi suljettuun lisenssiin._
 
-_Päivitys 2022-12-17 osa 2: Olen vaihtanut Giteasta Forgejoon.
+_Päivitys 2022-12-17 osa 2: Olen vaihtanut Giteasta Forgejoon.  
 Forgejo on avoimen lähdekoodin fork Gitesta, koska Gitea näyttää siirtyvän suljettuun liiketoimintamalliin._
 
-Kun asensin tätä sivustoa, sain tietää link:https://woodpecker-ci.org[Woodpecker CI]:stä, joka näytti sopivan tarpeisiini erinomaisesti.
-Olin kokeillut link:https://www.jenkins.io[Jenksiä] aiemmin, mutta en pitänyt sitä kovin helppokäyttöisenä.
-En myöskään pitänyt siitä, että se kulutti niin paljon resursseja.
+_Päivitys 2025-08-15: Olen vaihtanut Woodpecker CI:n Forgejo Actionsiin.  
+Itse asiassa vaihdoin jo aiemmin, mutta vasta nyt ajattelin päivittää tämän sivuston._
 
-Woodpeckerin asentaminen kesti vain noin 30 minuuttia erinomaisen dokumentaation ja sisäänrakennetun link:https://forgejo.org[Forgejo]-tuen ansiosta (jota käytin jo vuosia ennen tätä).
-Pipelinen asentaminen vaati hieman enemmän kokeilua ja virheiden korjausta, mutta loppujen lopuksi se osoittautui melko helpoksi.
+Vuosien varrella olen siirtynyt eri CI-järjestelmiin. Nykyinen järjestelmä on link:https://forgejo.org/docs/latest/user/actions/reference/[Forgejo Actions].  
+Se on käytännössä avoimen lähdekoodin vastine GitHub Actionsille, ja nautin sen käytöstä todella paljon.
 
-Asiaan liittyvät konfiguraatiotiedostot
+Relevantit konfiguraatiotiedostot
 
-* link:https://git.korhonen.cc/FunctionalHacker/korhonen.cc/src/branch/main/.woodpecker.yml[Sivuston buildiin käytetty pipeline]
-* link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/forgejo/docker-compose.toml[Forgejo-serverin konfiguraatio]
-* link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/woodpecker/docker-compose.toml[Woodpecker CI:n konfiguraatio]
+* link:https://git.korhonen.cc/FunctionalHacker/korhonen.cc/src/branch/main/.forgejo/workflows/deploy_site.yaml[Sivuston buildiin käytetty pipeline]  
+* link:https://git.korhonen.cc/FunctionalHacker/dotfiles/src/branch/main/docker/forgejo/docker-compose.yaml[Forgejo-serverin konfiguraatio]
 
 == Tulevaisuuden suunnitelmat
 
