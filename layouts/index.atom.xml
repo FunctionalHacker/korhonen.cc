@@ -6,7 +6,7 @@
 {{- end -}}
 {{ print "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
-  {{ with .Site.Author.name }}
+  {{ with .Site.Params.author.name }}
   <author>
     <name>{{ . }}</name>
     <uri>{{ $.Site.BaseURL }}</uri>
@@ -29,11 +29,9 @@
   {{ with .Site.Params.logo.icon96 }}<webfeeds:icon>{{ . | absURL }}</webfeeds:icon>{{ end }}
   {{ range $pages }}
   <entry>
-    {{ with .Params.Author }}
     <author>
-      <name>{{ . }}</name>
+      <name>{{ default $.Site.Params.author.name .Params.Author }}</name>
     </author>
-    {{ end }}
     <id>tag:{{ $u := urls.Parse .Permalink }}{{ $u.Hostname }},{{ .Date.Format .Site.Params.atom.dateFormat.tag }}:{{ replace $u.Path "#" "_" }}</id>
     <link rel="alternate" href="{{ .Permalink }}"/>
     <title>{{ .Title }}</title>
