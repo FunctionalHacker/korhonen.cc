@@ -41,7 +41,7 @@
     <updated>{{ .Lastmod.Format .Site.Params.atom.dateFormat.feed | safeHTML }}</updated>
     {{ with .Description }}<summary type="text">{{ . }}</summary>{{ end }}
     <content type="html" xml:base="{{ .Permalink }}" xml:lang="{{ .Lang }}">
-        <![CDATA[{{ .Content | safeHTML }}]]>
+      {{ printf "<![CDATA[%s]]>" .Content | safeHTML }}
     </content>
   </entry>
   {{ end }}
