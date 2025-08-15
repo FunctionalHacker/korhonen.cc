@@ -30,7 +30,7 @@ hideFromNavbar = true
 showOnFooter = true
 
 [[customMenus]]
-name = "Atom-syöte"
-url = "/fi/atom.xml"
+name = "Syöte"
+url = "/fi/feed.xml"
 hideFromNavbar = true
 showOnFooter = true

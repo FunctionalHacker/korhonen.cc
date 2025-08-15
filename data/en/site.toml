@@ -30,7 +30,7 @@ hideFromNavbar = true
 showOnFooter = true
 
 [[customMenus]]
-name = "Atom feed"
-url = "/atom.xml"
+name = "Feed"
+url = "/feed.xml"
 hideFromNavbar = true
 showOnFooter = true

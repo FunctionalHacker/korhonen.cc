@@ -25,9 +25,9 @@ icon = "fab fa-mastodon"
 url = "https://coretalk.space/@FunctionalHacker"
 
 [[socialLinks]]
-name = "Atom-syöte"
+name = "Syöte"
 icon = "fa-solid fa-rss"
-url = "/fi/atom.xml"
+url = "/fi/feed.xml"
 
 [[socialLinks]]
 name = "GitHub"

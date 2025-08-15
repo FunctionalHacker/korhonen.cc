@@ -1,4 +1,4 @@
 [ATOM]
 mediaType = "application/atom+xml"
-baseName = "atom"
+baseName = "feed"
 uuid = "3d1731e8-0321-4d17-b23c-7fabe585a119"
