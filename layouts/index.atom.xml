@@ -40,11 +40,8 @@
     <published>{{ .Date.Format .Site.Params.atom.dateFormat.feed | safeHTML }}</published>
     <updated>{{ .Lastmod.Format .Site.Params.atom.dateFormat.feed | safeHTML }}</updated>
     {{ with .Description }}<summary type="text">{{ . }}</summary>{{ end }}
-    <content type="html" xml:base="{{ .Site.BaseURL }}" xml:lang="en">
-        {{ $content := .Content }}
-        {{ $base := .Site.BaseURL }}
-        {{ $fixedContent := replaceRE `src="([^:"]+)"` (printf `src="%s$1"` $base) $content }}
-        {{ printf "<![CDATA[%s]]>" $fixedContent | safeHTML }}
+    <content type="html" xml:base="{{ .Permalink }}" xml:lang="{{ .Lang }}">
+        <![CDATA[{{ .Content | safeHTML }}]]>
     </content>
   </entry>
   {{ end }}
