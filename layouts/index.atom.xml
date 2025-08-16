@@ -39,10 +39,10 @@
     <updated>{{ .Lastmod.Format .Site.Params.atom.dateFormat.feed | safeHTML }}</updated>
     {{ with .Description }}<summary type="text">{{ . }}</summary>{{ end }}
     <content type="html" xml:base="{{ .Permalink }}" xml:lang="{{ .Lang }}">
-      <![CDATA[
+      {{ "<![CDATA[" | safeHTML }}
         {{ with .Params.featured_image }}<img src="{{ . }}" alt="Featured image"></img>{{ end }}
         {{ .Content | safeHTML }}
-      ]]>
+      {{ "]]>" | safeHTML }}
     </content>
   </entry>
   {{ end }}
