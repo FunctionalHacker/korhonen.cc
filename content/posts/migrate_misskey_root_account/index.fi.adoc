@@ -1,6 +1,5 @@
 ---
 title: Misskeyn root-tilin migraatio
-description: A solution for an issue I found when migrating from Misskey to Firefish
 description: Ratkaisu ongelmaan johon törmäsin Misskey Firefish migraatiossa
 date: 2023-12-10T11:41:08+02:00
 featured_image: hero.jpg
