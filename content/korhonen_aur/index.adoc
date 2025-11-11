@@ -19,11 +19,11 @@ me] and I'll see what I can do.
 
 == Usage
 
-First, add link:/pgp[my PGP key] to your pacman keyring and trust it
+First, add link:/pgp[my PGP key] to your Pacman keyring and trust it
 
 [source,shell]
 ----
-include::assets/pacman_commands.sh[]
+include::assets/trust_pgp.sh[]
 ----
 
 Then add the following to your `/etc/pacman.conf`
@@ -31,4 +31,11 @@ Then add the following to your `/etc/pacman.conf`
 [source,conf]
 ----
 include::assets/pacman.conf[]
+----
+
+And finally, install my keyring package so you will get automatic updates when my PGP key changes
+
+[source,shell]
+----
+include::assets/keyring_install.sh[]
 ----

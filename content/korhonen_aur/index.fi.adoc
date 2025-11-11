@@ -18,11 +18,11 @@ Jos haluaisit jonkun paketin lisättäväksi repoon, mailto:aur@marko.korhonen.c
 
 == Käyttö
 
-Ensiksi, lisää link:/fi/pgp[PGP avaimeni] pacman avainnippuusi ja luota siihen
+Ensiksi, lisää link:/fi/pgp[PGP avaimeni] Pacman avainnippuusi ja luota siihen
 
 [source,shell]
 ----
-include::assets/pacman_commands.sh[]
+include::assets/trust_pgp.sh[]
 ----
 
 Sitten lisää seuraava sisältö pacman konfiguraatioosi
@@ -31,4 +31,11 @@ Sitten lisää seuraava sisältö pacman konfiguraatioosi
 [source,shell]
 ----
 include::assets/pacman.conf[]
+----
+
+Lopuksi, asenna avainnpippuni jotta saat automaattiset päivitykset kun PGP avaimeni päivittyy
+
+[source,shell]
+----
+include::assets/keyring_install.sh[]
 ----
