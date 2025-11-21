@@ -1,0 +1,35 @@
+name: Build and deploy site
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'
+  workflow_dispatch:
+
+jobs:
+    update_theme:
+        name: Update website Hugo theme
+        runs-on: docker
+        container:
+            image: hugomods/hugo:ci
+
+        steps:
+            - name: Checkout
+              uses: https://github.com/actions/checkout@v4
+
+            - name: Update theme
+              run: |
+                hugo mod get -u
+                hugo mod tidy
+
+            - name: Update node dependencies
+              run: |
+                hugo mod npm pack
+                npm install
+
+            - name: Commit changes
+              run: |
+                git config user.name "Automatic Update"
+                git config user.email "noreply@korhonen.cc"
+                git add -A
+                git commit -m "Automated theme update" || echo "No changes"
+                git push
