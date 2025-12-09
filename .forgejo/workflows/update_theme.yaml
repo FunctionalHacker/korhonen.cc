@@ -28,6 +28,7 @@ jobs:
 
             - name: Commit changes
               run: |
+                git pull
                 git config user.name "Automatic Update"
                 git config user.email "noreply@korhonen.cc"
                 git add -A
