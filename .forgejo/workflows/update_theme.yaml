@@ -1,4 +1,4 @@
-name: Update webiste Hugo theme
+name: Update website Hugo theme
 
 on:
   schedule:
