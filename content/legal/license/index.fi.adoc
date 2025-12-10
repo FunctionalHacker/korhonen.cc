@@ -8,7 +8,8 @@ featured_image: hero.jpg
 
 © 2022–{localyear} Marko Korhonen
 
-_Tämä on epävirallinen suomennos MIT-lisenssistä. Se ei korvaa alkuperäistä englanninkielistä lisenssiä. Sitova lisenssi on englanninkielinen lisenssi._
+_Tämä on epävirallinen suomennos MIT-lisenssistä. Se ei korvaa link:/legal/license[alkuperäistä englanninkielistä lisenssiä].
+Sitova lisenssi on englanninkielinen lisenssi._
 
 == Lupa
 
