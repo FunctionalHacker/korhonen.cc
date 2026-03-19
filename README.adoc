@@ -1,5 +1,7 @@
 = korhonen.cc website
 
+image::/FunctionalHacker/korhonen.cc/badges/workflows/deploy_site.yaml/badge.svg
+
 This is the source code to my main website.
 
 .Thanks to
