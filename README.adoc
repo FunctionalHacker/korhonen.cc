@@ -1,6 +1,6 @@
 = korhonen.cc website
 
-image::https://git.korhonen.cc/FunctionalHacker/korhonen.cc/badges/workflows/deploy_site.yaml/badge.svg
+image::/FunctionalHacker/korhonen.cc/badges/workflows/deploy_site.yaml/badge.svg[Build Status]
 
 This is the source code to my main website.
 
