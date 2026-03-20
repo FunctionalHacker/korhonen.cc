@@ -19,14 +19,11 @@ jobs:
             - name: Checkout
               uses: https://github.com/actions/checkout@v6
 
+            - name: Install extra packages
+              run: apk add asciidoctor tzdata ruby-rouge
+
             - name: Install NPM packages
               run: npm install
-
-            - name: Install Rouge
-              run: apk add ruby-rouge
-
-            - name: Install Timezone Data
-              run: apk add --no-cache tzdata
 
             - name: Run Hugo
               run: hugo --gc --minify --cleanDestinationDir -d /public
