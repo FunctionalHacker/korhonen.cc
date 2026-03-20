@@ -11,6 +11,7 @@ jobs:
         runs-on: docker
         container:
             image: ghcr.io/gohugoio/hugo
+            options: --user root
             volumes:
                 - caddy_korhonen_cc:/public
 
