@@ -25,5 +25,8 @@ jobs:
             - name: Install Rouge
               run: apk add ruby-rouge
 
+            - name: Install Timezone Data
+              run: apk add --no-cache tzdata
+
             - name: Run Hugo
               run: hugo --gc --minify --cleanDestinationDir -d /public
