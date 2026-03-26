@@ -97,4 +97,4 @@ Olen myös link:https://neovim.io[NeoVim]-käyttäjä, joten saatan kirjoittaa p
 Tässä on kuvankaappaus minusta kirjoittamassa tätä blogikirjoitusta. Aika meta 😃
 
 .Kuvankaappaus minusta kirjoittamassa blogikirjoitusta tästä blogista
-image::assets/writing_blogpost_neovim_hugo.png[Minä kirjoittamassa tätä blogikirjoitusta]
+image::/posts/creating_this_site/assets/writing_blogpost_neovim_hugo.png[Minä kirjoittamassa tätä blogikirjoitusta]
