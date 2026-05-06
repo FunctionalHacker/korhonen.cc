@@ -1,1 +1,1 @@
-sq wkd get marko@korhonen.cc
+sq network wkd search marko@korhonen.cc
