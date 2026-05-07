@@ -28,34 +28,32 @@
 {{ end }}
 
 {{ if $footerEnabled }}
-  {{ $author:= site.Data.author }}
-  {{ if (index site.Data site.Language.Lang).author }}
-    {{ $author = (index site.Data site.Language.Lang).author }}
+  {{ $author:= hugo.Data.author }}
+  {{ if (index hugo.Data site.Language.Lang).author }}
+    {{ $author = (index hugo.Data site.Language.Lang).author }}
   {{ end }}
 
-  {{ $sections:= site.Data.sections }}
-  {{ if (index site.Data site.Language.Lang).sections }}
-    {{ $sections = (index site.Data site.Language.Lang).sections }}
+  {{ $sections:= hugo.Data.sections }}
+  {{ if (index hugo.Data site.Language.Lang).sections }}
+    {{ $sections = (index hugo.Data site.Language.Lang).sections }}
   {{ end }}
 
   {{ $customMenus := site.Params.customMenus }}
-  {{ if (index site.Data site.Language.Lang).site.customMenus }}
-    {{ $customMenus = (index site.Data site.Language.Lang).site.customMenus }}
+  {{ if (index hugo.Data site.Language.Lang).site.customMenus }}
+    {{ $customMenus = (index hugo.Data site.Language.Lang).site.customMenus }}
   {{ end }}
 
-  {{ $copyrightNotice := now.Format "2006" | printf "© %s Copyright." }}
-  {{ $copyrightUrl := "/" }}
-  {{ if (index site.Data site.Language.Lang).site }}
-    {{ $siteConfig := (index site.Data site.Language.Lang).site }}
+  {{ $copyrightNotice := now.Format "2006" | printf "© %s Copyright."}}
+  {{ if (index hugo.Data site.Language.Lang).site }}
+    {{ $siteConfig := (index hugo.Data site.Language.Lang).site }}
     {{ if $siteConfig.copyright }}
-      {{ $copyrightNotice = $siteConfig.copyright.text }}
-      {{ $copyrightUrl = $siteConfig.copyright.url }}
+      {{ $copyrightNotice = $siteConfig.copyright }}
     {{ end }}
   {{ end }}
 
 
   {{ $disclaimer := "" }}
-  {{ $siteConfig := (index site.Data site.Language.Lang).site }}
+  {{ $siteConfig := (index hugo.Data site.Language.Lang).site }}
   {{ if $siteConfig.disclaimer }}
     {{ $disclaimer = $siteConfig.disclaimer }}
   {{ end }}
@@ -119,7 +117,9 @@
                   <span><i class="fas fa-envelope"></i></span> <span>{{ $value }}</span>
                 </a></li>
               {{ else if (eq $key "phone") }}
-                <li><span><i class="fas fa-phone-alt"></i></span> <span>{{ $value }}</span></li>
+                <li><a href={{ printf "tel:%s" $value | safeURL }} target="_blank" rel="noopener">
+                  <span><i class="fas fa-phone-alt"></i></span> <span>{{ $value }}</span>
+                </a></li>
               {{ else if (eq $key "linkedin") }}
                 <li><a href={{ printf "https://www.linkedin.com/in/%s" $value }} target="_blank" rel="noopener">
                   <span><i class="fab fa-linkedin"></i></span> <span>{{ $author.name }}</span>
