@@ -44,6 +44,7 @@
   {{ end }}
 
   {{ $copyrightNotice := now.Format "2006" | printf "© %s Copyright."}}
+  {{ $copyrightUrl := "/" }}
   {{ if (index hugo.Data site.Language.Lang).site }}
     {{ $siteConfig := (index hugo.Data site.Language.Lang).site }}
     {{ if $siteConfig.copyright }}
