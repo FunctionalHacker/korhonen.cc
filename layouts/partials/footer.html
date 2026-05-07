@@ -48,7 +48,8 @@
   {{ if (index hugo.Data site.Language.Lang).site }}
     {{ $siteConfig := (index hugo.Data site.Language.Lang).site }}
     {{ if $siteConfig.copyright }}
-      {{ $copyrightNotice = $siteConfig.copyright }}
+      {{ $copyrightNotice = $siteConfig.copyright.text }}
+      {{ $copyrightUrl = $siteConfig.copyright.url }}
     {{ end }}
   {{ end }}
 
