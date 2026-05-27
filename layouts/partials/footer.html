@@ -215,16 +215,32 @@
             Toha theme {{ $tohaVersion }}
           </a>
         </div>
-        <a class="col-md-5 text-center" href="{{ $copyrightUrl }}">
+        <a class="col-md-3" href="{{ $copyrightUrl }}">
             {{ replace $copyrightNotice "{currentYear}" now.Year | markdownify }}
         </a>
-        <div class="col-md-3 text-end">
+        <div class="col-md-3">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">{{ i18n "hugoAttributionText" }}
           <img
             src="{{ $hugoLogo }}"
             alt="Hugo Logo"
             height="18"
           /> v{{ .Site.Hugo.Version }}
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a 
+            id="theme"
+            href="https://git.korhonen.cc/FunctionalHacker/korhonen.cc/actions?workflow=deploy_site.yaml"
+            target="_blank"
+            rel="noopener"
+            title="Built on {{ now.Format "2006-01-02 15:04 MST" }}"
+          >
+            <img 
+                src="https://git.korhonen.cc/FunctionalHacker/korhonen.cc/badges/workflows/deploy_site.yaml/badge.svg"
+                alt="Site deploy status"
+                class="img-fluid"
+                style="height: 20px; width: auto;"
+            />
           </a>
         </div>
       </div>
